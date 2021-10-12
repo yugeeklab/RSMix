@@ -35,18 +35,19 @@ import provider
 import rsmix_provider
 from ModelNetDataLoader import ModelNetDataLoader
 
+save_path = "/content/drive/MyDrive/Colab Notebooks/"
 
 def _init_():
-    if not os.path.exists('checkpoints'):
-        os.makedirs('checkpoints')
-    if not os.path.exists('checkpoints/'+args.exp_name):
-        os.makedirs('checkpoints/'+args.exp_name)
-    if not os.path.exists('checkpoints/'+args.exp_name+'/'+'models'):
-        os.makedirs('checkpoints/'+args.exp_name+'/'+'models')
-    os.system('cp main.py checkpoints'+'/'+args.exp_name+'/'+'main.py.backup')
-    os.system('cp model.py checkpoints' + '/' + args.exp_name + '/' + 'model.py.backup')
-    os.system('cp util.py checkpoints' + '/' + args.exp_name + '/' + 'util.py.backup')
-    os.system('cp data.py checkpoints' + '/' + args.exp_name + '/' + 'data.py.backup')
+    if not os.path.exists(save_path + 'checkpoints'):
+        os.makedirs(save_path + 'checkpoints')
+    if not os.path.exists(save_path + 'checkpoints/'+args.exp_name):
+        os.makedirs(save_path + 'checkpoints/'+args.exp_name)
+    if not os.path.exists(save_path + 'checkpoints/'+args.exp_name+'/'+'models'):
+        os.makedirs(save_path + 'checkpoints/'+args.exp_name+'/'+'models')
+    os.system('cp main.py ' + save_path + 'checkpoints'+'/'+args.exp_name+'/'+'main.py.backup')
+    os.system('cp model.py ' + save_path + 'checkpoints' + '/' + args.exp_name + '/' + 'model.py.backup')
+    os.system('cp util.py ' + save_path + 'checkpoints' + '/' + args.exp_name + '/' + 'util.py.backup')
+    os.system('cp data.py ' + save_path + 'checkpoints' + '/' + args.exp_name + '/' + 'data.py.backup')
 
 
 def log_string(out_str):
@@ -233,7 +234,7 @@ def train(args, io):
         if test_acc >= best_test_acc:
             best_test_acc = test_acc
             conv_epoch = epoch
-            torch.save(model.state_dict(), 'checkpoints/%s/models/model.t7' % args.exp_name)
+            torch.save(model.state_dict(), save_path + 'checkpoints/%s/models/model.t7' % args.exp_name)
             log_string('Model saved in file : checkpoints/%s/models/model.t7' %(args.exp_name))
         # if avg_per_class_acc >= best_avg_class_acc:
             best_avg_class_acc = avg_per_class_acc
@@ -343,14 +344,14 @@ if __name__ == "__main__":
 
     _init_()
 
-    io = IOStream('checkpoints/' + args.exp_name + '/run.log')
+    io = IOStream(save_path + 'checkpoints/' + args.exp_name + '/run.log')
     io.cprint(str(args))
 
     args.cuda = not args.no_cuda and torch.cuda.is_available()
     torch.manual_seed(args.seed)
 
-    if not os.path.exists('./log'): os.mkdir('./log')
-    LOG_DIR = os.path.join('./log',args.exp_name)
+    if not os.path.exists(save_path + 'log'): os.mkdir(save_path + 'log')
+    LOG_DIR = os.path.join(save_path + 'log',args.exp_name)
     if not os.path.exists(LOG_DIR): os.mkdir(LOG_DIR)
     LOG_FOUT = open(os.path.join(LOG_DIR, 'log_train.txt'), 'w')
     LOG_FOUT.write(str(args)+'\n')
