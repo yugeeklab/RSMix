@@ -33,6 +33,7 @@ import time
 from datetime import datetime
 import provider
 import rsmix_provider
+import augmix_provider
 from ModelNetDataLoader import ModelNetDataLoader
 
 

@@ -334,7 +334,7 @@ def augmix(data, beta=1.0, n_sample=1024, lam_t = 0.5, lam_o=0.2) :
   dis, ass = temd(data_a, data_b, 0.005, 300)
   
   for i in range(data.shape[0]) :
-    data_b[i] = data_b[i][ass[i]]
+    data_b[i] = data_b[i][ass[i].long()]
 
   data_t = data_a * lam_t + data_b * (1 - lam_t)
 
