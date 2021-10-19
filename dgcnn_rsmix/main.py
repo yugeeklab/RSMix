@@ -35,19 +35,18 @@ import provider
 import rsmix_provider
 from ModelNetDataLoader import ModelNetDataLoader
 
-save_path = "/content/drive/MyDrive/Colab Notebooks/"
 
 def _init_():
-    if not os.path.exists(save_path + 'checkpoints'):
-        os.makedirs(save_path + 'checkpoints')
-    if not os.path.exists(save_path + 'checkpoints/'+args.exp_name):
-        os.makedirs(save_path + 'checkpoints/'+args.exp_name)
-    if not os.path.exists(save_path + 'checkpoints/'+args.exp_name+'/'+'models'):
-        os.makedirs(save_path + 'checkpoints/'+args.exp_name+'/'+'models')
-    os.system('cp main.py ' + save_path + 'checkpoints'+'/'+args.exp_name+'/'+'main.py.backup')
-    os.system('cp model.py ' + save_path + 'checkpoints' + '/' + args.exp_name + '/' + 'model.py.backup')
-    os.system('cp util.py ' + save_path + 'checkpoints' + '/' + args.exp_name + '/' + 'util.py.backup')
-    os.system('cp data.py ' + save_path + 'checkpoints' + '/' + args.exp_name + '/' + 'data.py.backup')
+    if not os.path.exists('checkpoints'):
+        os.makedirs('checkpoints')
+    if not os.path.exists('checkpoints/'+args.exp_name):
+        os.makedirs('checkpoints/'+args.exp_name)
+    if not os.path.exists('checkpoints/'+args.exp_name+'/'+'models'):
+        os.makedirs('checkpoints/'+args.exp_name+'/'+'models')
+    os.system('cp main.py checkpoints'+'/'+args.exp_name+'/'+'main.py.backup')
+    os.system('cp model.py checkpoints' + '/' + args.exp_name + '/' + 'model.py.backup')
+    os.system('cp util.py checkpoints' + '/' + args.exp_name + '/' + 'util.py.backup')
+    os.system('cp data.py checkpoints' + '/' + args.exp_name + '/' + 'data.py.backup')
 
 
 def log_string(out_str):
@@ -116,6 +115,9 @@ def train(args, io):
             implement augmentation
             '''
             rsmix = False
+            augmix = False
+            data_r1 = None
+            data_r2 = None
             # for new augmentation code, remove squeeze because it will be applied after augmentation.
             # default from baseline model, scale, shift, shuffle was default augmentation
             if args.rot or args.rdscale or args.shift or args.jitter or args.shuffle or args.rddrop or (args.beta is not 0.0):
@@ -147,6 +149,11 @@ def train(args, io):
                 lam, label_b = lam.to(device), label_b.to(device).squeeze()
             data, label = data.to(device), label.to(device).squeeze()
 
+            if r < args.augmix_prob :
+                augmix = True
+                data_r1 = augmix_provider.augmix(data, beta=args.beta, n_sample=args.nsample)
+                data_r2 = augmix_provider.augmix(data, beta=args.beta, n_sample=args.nsample)
+
             if rsmix:
                 data = data.permute(0, 2, 1)
                 batch_size = data.size()[0]
@@ -159,6 +166,30 @@ def train(args, io):
                         + criterion(logits[i].unsqueeze(0), label_b[i].unsqueeze(0).long())*lam[i]
                     loss += loss_tmp
                 loss = loss/batch_size
+            
+            elif augmix :
+                data = data.permute(0, 2, 1)
+                data_r1 = data_r1.permute(0, 2, 1)
+                data_r2 = data_r2.permute(0, 2, 1)
+                batch_size = data.size()[0]
+                opt.zero_grad()
+                logits = model(data)
+                loss = criterion(logits, label)
+
+                logits_clean = logits
+                logits_aug1 = model(data_r1)
+                logits_aug2 = model(data_r2)
+
+                p_clean, p_aug1, p_aug2 = F.softmax(
+                    logits_clean, dim=1), F.softmax(
+                        logits_aug1, dim=1), F.softmax(
+                            logits_aug2, dim=1)
+
+                # Clamp mixture distribution to avoid exploding KL divergence
+                p_mixture = torch.clamp((p_clean + p_aug1 + p_aug2) / 3., 1e-7, 1).log()
+                loss += 12 * (F.kl_div(p_mixture, p_clean, reduction='batchmean') +
+                              F.kl_div(p_mixture, p_aug1, reduction='batchmean') +
+                              F.kl_div(p_mixture, p_aug2, reduction='batchmean')) / 3.
 
             else:
                 data = data.permute(0, 2, 1)
@@ -234,7 +265,7 @@ def train(args, io):
         if test_acc >= best_test_acc:
             best_test_acc = test_acc
             conv_epoch = epoch
-            torch.save(model.state_dict(), save_path + 'checkpoints/%s/models/model.t7' % args.exp_name)
+            torch.save(model.state_dict(), 'checkpoints/%s/models/model.t7' % args.exp_name)
             log_string('Model saved in file : checkpoints/%s/models/model.t7' %(args.exp_name))
         # if avg_per_class_acc >= best_avg_class_acc:
             best_avg_class_acc = avg_per_class_acc
@@ -338,20 +369,21 @@ if __name__ == "__main__":
     parser.add_argument('--normal', action='store_true', help='use normal')
     parser.add_argument('--knn', action='store_true', help='use knn instead ball-query function')
     parser.add_argument('--data_path', type=str, default='./data/modelnet40_normal_resampled', help='dataset path')
+    parser.add_argument('--augmix_prob', type=float, default=0.5, help='augmix_prob')
     
     
     args = parser.parse_args()
 
     _init_()
 
-    io = IOStream(save_path + 'checkpoints/' + args.exp_name + '/run.log')
+    io = IOStream('checkpoints/' + args.exp_name + '/run.log')
     io.cprint(str(args))
 
     args.cuda = not args.no_cuda and torch.cuda.is_available()
     torch.manual_seed(args.seed)
 
-    if not os.path.exists(save_path + 'log'): os.mkdir(save_path + 'log')
-    LOG_DIR = os.path.join(save_path + 'log',args.exp_name)
+    if not os.path.exists('./log'): os.mkdir('./log')
+    LOG_DIR = os.path.join('./log',args.exp_name)
     if not os.path.exists(LOG_DIR): os.mkdir(LOG_DIR)
     LOG_FOUT = open(os.path.join(LOG_DIR, 'log_train.txt'), 'w')
     LOG_FOUT.write(str(args)+'\n')
