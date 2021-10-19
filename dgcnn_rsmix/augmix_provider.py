@@ -1,5 +1,7 @@
 import torch
 import numpy as np
+import sys
+sys.path.append("../emd")
 import emd_module as emd
 
 class PointcloudToTensor(object):
@@ -335,6 +337,11 @@ def augmix(data, beta=1.0, n_sample=1024, lam_t = 0.5, lam_o=0.2) :
     data_b[i] = data_b[i][ass[i]]
 
   data_t = data_a * lam_t + data_b * (1 - lam_t)
+
+  dis, ass = temd(data_o, data_t, 0.005, 300)
+
+  for i in range(data.shape[0]) :
+    data_t[i] = data_t[i][ass[i].long()]
   data_r = data_o * lam_o + data_t * (1 - lam_o)
 
   return data_r
