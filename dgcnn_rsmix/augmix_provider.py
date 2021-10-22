@@ -345,3 +345,51 @@ def augmix(data, beta=1.0, n_sample=1024, lam_t = 0.5, lam_o=0.2) :
   data_r = data_o * lam_o + data_t * (1 - lam_o)
 
   return data_r
+
+def augmix_cutmix(data, batch_size = 32, beta=1.0, n_sample=1024, lam = 0.5, rotate_clip = 1.0, scale_low = 2. / 3., scale_high = 3. / 2., jitter_clip = 0.05) :
+  transforms_a = [
+      PointcloudRotatePerturbation_batch(angle_clip=rotate_clip),
+      PointcloudTranslate_batch(),
+      PointcloudJitter_batch(clip = jitter_clip)
+    ]
+  
+  transforms_b = [
+      PointcloudScale_batch(scale_low = scale_low, scale_high = scale_high),
+      PointcloudTranslate_batch(),
+      PointcloudJitter_batch(clip = jitter_clip)
+    ]
+
+  data_a = data.detach()
+  data_b = data.detach()
+
+  for f in transforms_a :
+    data_a = f(data_a)
+  
+  for f in transforms_b :
+    data_b = f(data_b)
+
+  temd = emd.emdModule().cuda()
+
+  dis_a, ass_a = temd(data, data_a, 0.005, 300)
+  dis_b, ass_b = temd(data, data_b, 0.005, 300)
+  
+  for i in range(data.shape[0]) :
+    data_a[i] = data_a[i][ass_a[i].long()]
+    data_b[i] = data_b[i][ass_b[i].long()]
+
+  random_point_a, random_point_b = torch.split(torch.from_numpy(np.random.choice(1024, batch_size*2, replace=False, p=None)), batch_size)
+  # kNN
+  batch_idxs = torch.tensor(range(batch_size))
+  query = data[batch_idxs, random_point_a].view(batch_size, 1, 3)
+  dist = torch.sqrt(torch.sum((data - query.repeat(1, n_sample, 1)) ** 2, 2))
+  idxs = dist.topk(int(n_sample*lam), dim=1, largest=False, sorted=True).indices
+  for i in range(batch_size):
+    data[i, idxs[i], :] = data_a[i, idxs[i], :]
+
+  query = data[batch_idxs, random_point_b].view(batch_size, 1, 3)
+  dist = torch.sqrt(torch.sum((data - query.repeat(1, n_sample, 1)) ** 2, 2))
+  idxs = dist.topk(int(n_sample*lam), dim=1, largest=False, sorted=True).indices
+  for i in range(batch_size):
+    data[i, idxs[i], :] = data_b[i, idxs[i], :]
+
+  return data

@@ -156,7 +156,6 @@ def train(args, io):
                 data_r2 = augmix_provider.augmix(data, beta=args.beta, n_sample=args.nsample)
 
             if rsmix:
-                print("Use rsmix")
                 data = data.permute(0, 2, 1)
                 batch_size = data.size()[0]
                 opt.zero_grad()
@@ -170,7 +169,6 @@ def train(args, io):
                 loss = loss/batch_size
             
             elif augmix :
-                print("Use augmix")
                 data = data.permute(0, 2, 1)
                 data_r1 = data_r1.permute(0, 2, 1)
                 data_r2 = data_r2.permute(0, 2, 1)
@@ -193,15 +191,6 @@ def train(args, io):
                 loss += 12 * (F.kl_div(p_mixture, p_clean, reduction='batchmean') +
                               F.kl_div(p_mixture, p_aug1, reduction='batchmean') +
                               F.kl_div(p_mixture, p_aug2, reduction='batchmean')) / 3.
-
-            elif r < args.augmix_cutmix_prob :
-                print("Use augmix_cutmix")
-                data = augmix_provider.augmix_cutmix(data, jitter_clip = 0.1)
-                data = data.permute(0, 2, 1)
-                batch_size = data.size()[0]
-                opt.zero_grad()
-                logits = model(data)
-                loss = criterion(logits, label)
 
             else:
                 data = data.permute(0, 2, 1)
@@ -382,7 +371,6 @@ if __name__ == "__main__":
     parser.add_argument('--knn', action='store_true', help='use knn instead ball-query function')
     parser.add_argument('--data_path', type=str, default='./data/modelnet40_normal_resampled', help='dataset path')
     parser.add_argument('--augmix_prob', type=float, default=0.5, help='augmix_prob')
-    parser.add_argument('--augmix_cutmix_prob', type=float, default=0.5, help='augmix_cutmix_prob')
     
     
     args = parser.parse_args()

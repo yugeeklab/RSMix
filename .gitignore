@@ -1,0 +1,8 @@
+emd/__pycache__/
+emd/build/
+emd/cuda_11.1.0_455.23.05_linux.run
+emd/dist/
+emd/emd.egg-info/
+__pycache__
+*.t7
+data/
