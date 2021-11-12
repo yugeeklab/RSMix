@@ -1,0 +1,11 @@
+Namespace(augmix_cutmix_prob=0.5, augmix_prob=0.0, batch_size=32, beta=1.0, cuda=True, data_path='./data/modelnet40_normal_resampled', dataset='modelnet40', dropout=0.5, emb_dims=1024, epochs=500, eval=False, exp_name='augmix_cutmix_lams3_dgcnn_1024', jitter=False, k=20, knn=False, lr=0.001, model='dgcnn', model_path='', modelnet10=False, momentum=0.9, no_cuda=False, normal=False, nsample=512, num_points=1024, rddrop=False, rdscale=False, rot=False, rsmix_prob=0.0, seed=1, shift=False, shuffle=False, test_batch_size=16, use_sgd=True)
+2021-11-12 13:43:02.524462
+**** EPOCH 000 ****
+Train epoch 0, loss: 2.732128, train acc: 0.455110, train avg acc: 0.277419
+---- EPOCH 000 EVALUATION ----
+Test epoch 0, loss: 2.239706, test acc: 0.582658, test avg acc: 0.434860
+Model saved in file : checkpoints/augmix_cutmix_lams3_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.582658
+*** at then, best class accuracy *** -  0.434860
+2021-11-12 13:43:52.665973
+**** EPOCH 001 ****
