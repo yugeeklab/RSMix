@@ -1,0 +1,3534 @@
+Namespace(augmix_cutmix_prob=0.5, augmix_prob=0.0, batch_size=32, beta=1.0, cuda=True, data_path='./data/modelnet40_normal_resampled', dataset='modelnet40', dropout=0.5, emb_dims=1024, epochs=500, eval=False, exp_name='augmix_cutmix_lams2_eps5e-2_dgcnn_1024', jitter=False, k=20, knn=False, lr=0.001, model='dgcnn', model_path='', modelnet10=False, momentum=0.9, no_cuda=False, normal=False, nsample=512, num_points=1024, rddrop=False, rdscale=False, rot=False, rsmix_prob=0.0, seed=1, shift=False, shuffle=False, test_batch_size=16, use_sgd=True)
+2021-11-13 14:13:58.891316
+**** EPOCH 000 ****
+Train epoch 0, loss: 2.322880, train acc: 0.444727, train avg acc: 0.276725
+---- EPOCH 000 EVALUATION ----
+Test epoch 0, loss: 1.768530, test acc: 0.532010, test avg acc: 0.427890
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.532010
+*** at then, best class accuracy *** -  0.427890
+2021-11-13 14:15:01.147108
+**** EPOCH 001 ****
+Train epoch 1, loss: 1.610098, train acc: 0.616144, train avg acc: 0.451317
+---- EPOCH 001 EVALUATION ----
+Test epoch 1, loss: 1.276934, test acc: 0.720827, test avg acc: 0.586930
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.720827
+*** at then, best class accuracy *** -  0.586930
+2021-11-13 14:16:03.015792
+**** EPOCH 002 ****
+Train epoch 2, loss: 1.407053, train acc: 0.681393, train avg acc: 0.532456
+---- EPOCH 002 EVALUATION ----
+Test epoch 2, loss: 1.168047, test acc: 0.757699, test avg acc: 0.647436
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.757699
+*** at then, best class accuracy *** -  0.647436
+2021-11-13 14:16:51.978535
+**** EPOCH 003 ****
+Train epoch 3, loss: 1.270498, train acc: 0.726486, train avg acc: 0.592525
+---- EPOCH 003 EVALUATION ----
+Test epoch 3, loss: 1.233212, test acc: 0.745948, test avg acc: 0.645988
+*** best accuracy *** - 0.757699
+*** at then, best class accuracy *** -  0.647436
+2021-11-13 14:17:39.961325
+**** EPOCH 004 ****
+Train epoch 4, loss: 1.196035, train acc: 0.748575, train avg acc: 0.627038
+---- EPOCH 004 EVALUATION ----
+Test epoch 4, loss: 1.048138, test acc: 0.796191, test avg acc: 0.717314
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.796191
+*** at then, best class accuracy *** -  0.717314
+2021-11-13 14:18:29.547051
+**** EPOCH 005 ****
+Train epoch 5, loss: 1.135370, train acc: 0.771478, train avg acc: 0.658190
+---- EPOCH 005 EVALUATION ----
+Test epoch 5, loss: 0.928428, test acc: 0.845624, test avg acc: 0.739302
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.845624
+*** at then, best class accuracy *** -  0.739302
+2021-11-13 14:19:18.044596
+**** EPOCH 006 ****
+Train epoch 6, loss: 1.107210, train acc: 0.784507, train avg acc: 0.682864
+---- EPOCH 006 EVALUATION ----
+Test epoch 6, loss: 0.955709, test acc: 0.831848, test avg acc: 0.757483
+*** best accuracy *** - 0.845624
+*** at then, best class accuracy *** -  0.739302
+2021-11-13 14:20:05.877543
+**** EPOCH 007 ****
+Train epoch 7, loss: 1.052956, train acc: 0.800998, train avg acc: 0.703461
+---- EPOCH 007 EVALUATION ----
+Test epoch 7, loss: 0.905797, test acc: 0.856969, test avg acc: 0.804797
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.856969
+*** at then, best class accuracy *** -  0.804797
+2021-11-13 14:20:55.261207
+**** EPOCH 008 ****
+Train epoch 8, loss: 1.036576, train acc: 0.803033, train avg acc: 0.707153
+---- EPOCH 008 EVALUATION ----
+Test epoch 8, loss: 1.057298, test acc: 0.803079, test avg acc: 0.719523
+*** best accuracy *** - 0.856969
+*** at then, best class accuracy *** -  0.804797
+2021-11-13 14:21:43.253858
+**** EPOCH 009 ****
+Train epoch 9, loss: 1.010295, train acc: 0.813721, train avg acc: 0.717783
+---- EPOCH 009 EVALUATION ----
+Test epoch 9, loss: 0.885976, test acc: 0.857780, test avg acc: 0.763895
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.857780
+*** at then, best class accuracy *** -  0.763895
+2021-11-13 14:22:33.249910
+**** EPOCH 010 ****
+Train epoch 10, loss: 0.987901, train acc: 0.825835, train avg acc: 0.739446
+---- EPOCH 010 EVALUATION ----
+Test epoch 10, loss: 0.912966, test acc: 0.848460, test avg acc: 0.766977
+*** best accuracy *** - 0.857780
+*** at then, best class accuracy *** -  0.763895
+2021-11-13 14:23:21.382507
+**** EPOCH 011 ****
+Train epoch 11, loss: 0.968533, train acc: 0.828990, train avg acc: 0.744665
+---- EPOCH 011 EVALUATION ----
+Test epoch 11, loss: 0.857631, test acc: 0.861426, test avg acc: 0.808674
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.861426
+*** at then, best class accuracy *** -  0.808674
+2021-11-13 14:24:10.709731
+**** EPOCH 012 ****
+Train epoch 12, loss: 0.966044, train acc: 0.832146, train avg acc: 0.747292
+---- EPOCH 012 EVALUATION ----
+Test epoch 12, loss: 0.865841, test acc: 0.858185, test avg acc: 0.795465
+*** best accuracy *** - 0.861426
+*** at then, best class accuracy *** -  0.808674
+2021-11-13 14:24:58.809160
+**** EPOCH 013 ****
+Train epoch 13, loss: 0.929417, train acc: 0.841205, train avg acc: 0.760288
+---- EPOCH 013 EVALUATION ----
+Test epoch 13, loss: 0.864030, test acc: 0.865073, test avg acc: 0.803151
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.865073
+*** at then, best class accuracy *** -  0.803151
+2021-11-13 14:25:47.871127
+**** EPOCH 014 ****
+Train epoch 14, loss: 0.930684, train acc: 0.841714, train avg acc: 0.762001
+---- EPOCH 014 EVALUATION ----
+Test epoch 14, loss: 0.946302, test acc: 0.843598, test avg acc: 0.782227
+*** best accuracy *** - 0.865073
+*** at then, best class accuracy *** -  0.803151
+2021-11-13 14:26:36.089827
+**** EPOCH 015 ****
+Train epoch 15, loss: 0.919755, train acc: 0.844259, train avg acc: 0.763991
+---- EPOCH 015 EVALUATION ----
+Test epoch 15, loss: 0.845978, test acc: 0.858590, test avg acc: 0.795453
+*** best accuracy *** - 0.865073
+*** at then, best class accuracy *** -  0.803151
+2021-11-13 14:27:24.063640
+**** EPOCH 016 ****
+Train epoch 16, loss: 0.902239, train acc: 0.854031, train avg acc: 0.775118
+---- EPOCH 016 EVALUATION ----
+Test epoch 16, loss: 0.832226, test acc: 0.865073, test avg acc: 0.799878
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.865073
+*** at then, best class accuracy *** -  0.799878
+2021-11-13 14:28:13.775222
+**** EPOCH 017 ****
+Train epoch 17, loss: 0.899827, train acc: 0.851995, train avg acc: 0.777284
+---- EPOCH 017 EVALUATION ----
+Test epoch 17, loss: 0.939375, test acc: 0.841977, test avg acc: 0.793890
+*** best accuracy *** - 0.865073
+*** at then, best class accuracy *** -  0.799878
+2021-11-13 14:29:01.680173
+**** EPOCH 018 ****
+Train epoch 18, loss: 0.889400, train acc: 0.856169, train avg acc: 0.784566
+---- EPOCH 018 EVALUATION ----
+Test epoch 18, loss: 0.857963, test acc: 0.865478, test avg acc: 0.809715
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.865478
+*** at then, best class accuracy *** -  0.809715
+2021-11-13 14:29:51.866912
+**** EPOCH 019 ****
+Train epoch 19, loss: 0.877370, train acc: 0.860138, train avg acc: 0.787174
+---- EPOCH 019 EVALUATION ----
+Test epoch 19, loss: 0.856514, test acc: 0.856159, test avg acc: 0.822709
+*** best accuracy *** - 0.865478
+*** at then, best class accuracy *** -  0.809715
+2021-11-13 14:30:40.171961
+**** EPOCH 020 ****
+Train epoch 20, loss: 0.878814, train acc: 0.860240, train avg acc: 0.791447
+---- EPOCH 020 EVALUATION ----
+Test epoch 20, loss: 0.770231, test acc: 0.898703, test avg acc: 0.828535
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:31:29.381275
+**** EPOCH 021 ****
+Train epoch 21, loss: 0.866260, train acc: 0.860647, train avg acc: 0.791387
+---- EPOCH 021 EVALUATION ----
+Test epoch 21, loss: 0.766067, test acc: 0.895867, test avg acc: 0.832221
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:32:17.157657
+**** EPOCH 022 ****
+Train epoch 22, loss: 0.872582, train acc: 0.861665, train avg acc: 0.788473
+---- EPOCH 022 EVALUATION ----
+Test epoch 22, loss: 0.829463, test acc: 0.879254, test avg acc: 0.832413
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:33:05.410553
+**** EPOCH 023 ****
+Train epoch 23, loss: 0.852479, train acc: 0.866348, train avg acc: 0.801405
+---- EPOCH 023 EVALUATION ----
+Test epoch 23, loss: 0.862546, test acc: 0.860616, test avg acc: 0.783692
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:33:53.671925
+**** EPOCH 024 ****
+Train epoch 24, loss: 0.850405, train acc: 0.866755, train avg acc: 0.798160
+---- EPOCH 024 EVALUATION ----
+Test epoch 24, loss: 0.807261, test acc: 0.880470, test avg acc: 0.842198
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:34:41.810606
+**** EPOCH 025 ****
+Train epoch 25, loss: 0.852265, train acc: 0.868587, train avg acc: 0.801868
+---- EPOCH 025 EVALUATION ----
+Test epoch 25, loss: 0.749180, test acc: 0.895057, test avg acc: 0.839581
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:35:29.819383
+**** EPOCH 026 ****
+Train epoch 26, loss: 0.845987, train acc: 0.870725, train avg acc: 0.806876
+---- EPOCH 026 EVALUATION ----
+Test epoch 26, loss: 0.799329, test acc: 0.882901, test avg acc: 0.824378
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:36:18.351790
+**** EPOCH 027 ****
+Train epoch 27, loss: 0.852672, train acc: 0.866450, train avg acc: 0.800914
+---- EPOCH 027 EVALUATION ----
+Test epoch 27, loss: 0.790893, test acc: 0.879660, test avg acc: 0.818703
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:37:06.495206
+**** EPOCH 028 ****
+Train epoch 28, loss: 0.845922, train acc: 0.867976, train avg acc: 0.799149
+---- EPOCH 028 EVALUATION ----
+Test epoch 28, loss: 0.815753, test acc: 0.873177, test avg acc: 0.827285
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:37:55.531823
+**** EPOCH 029 ****
+Train epoch 29, loss: 0.834706, train acc: 0.873677, train avg acc: 0.812947
+---- EPOCH 029 EVALUATION ----
+Test epoch 29, loss: 0.857501, test acc: 0.865478, test avg acc: 0.824506
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:38:43.707892
+**** EPOCH 030 ****
+Train epoch 30, loss: 0.828290, train acc: 0.875204, train avg acc: 0.808471
+---- EPOCH 030 EVALUATION ----
+Test epoch 30, loss: 0.782057, test acc: 0.887358, test avg acc: 0.845843
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:39:31.882605
+**** EPOCH 031 ****
+Train epoch 31, loss: 0.825764, train acc: 0.873982, train avg acc: 0.811462
+---- EPOCH 031 EVALUATION ----
+Test epoch 31, loss: 0.852262, test acc: 0.863047, test avg acc: 0.824779
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:40:20.802323
+**** EPOCH 032 ****
+Train epoch 32, loss: 0.834631, train acc: 0.874084, train avg acc: 0.811088
+---- EPOCH 032 EVALUATION ----
+Test epoch 32, loss: 0.802821, test acc: 0.886548, test avg acc: 0.833849
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:41:09.445826
+**** EPOCH 033 ****
+Train epoch 33, loss: 0.830839, train acc: 0.873779, train avg acc: 0.811941
+---- EPOCH 033 EVALUATION ----
+Test epoch 33, loss: 0.805129, test acc: 0.875608, test avg acc: 0.817872
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:41:57.817003
+**** EPOCH 034 ****
+Train epoch 34, loss: 0.819508, train acc: 0.876730, train avg acc: 0.814322
+---- EPOCH 034 EVALUATION ----
+Test epoch 34, loss: 0.817629, test acc: 0.874797, test avg acc: 0.817012
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:42:46.352103
+**** EPOCH 035 ****
+Train epoch 35, loss: 0.827361, train acc: 0.874084, train avg acc: 0.812807
+---- EPOCH 035 EVALUATION ----
+Test epoch 35, loss: 0.821758, test acc: 0.867909, test avg acc: 0.831581
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:43:35.109366
+**** EPOCH 036 ****
+Train epoch 36, loss: 0.814934, train acc: 0.880599, train avg acc: 0.820684
+---- EPOCH 036 EVALUATION ----
+Test epoch 36, loss: 0.864969, test acc: 0.846840, test avg acc: 0.794209
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:44:24.102948
+**** EPOCH 037 ****
+Train epoch 37, loss: 0.804476, train acc: 0.883347, train avg acc: 0.824589
+---- EPOCH 037 EVALUATION ----
+Test epoch 37, loss: 0.753213, test acc: 0.890600, test avg acc: 0.823500
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:45:12.498537
+**** EPOCH 038 ****
+Train epoch 38, loss: 0.801786, train acc: 0.878970, train avg acc: 0.819397
+---- EPOCH 038 EVALUATION ----
+Test epoch 38, loss: 0.759142, test acc: 0.893436, test avg acc: 0.835145
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:46:00.763850
+**** EPOCH 039 ****
+Train epoch 39, loss: 0.806181, train acc: 0.887113, train avg acc: 0.830386
+---- EPOCH 039 EVALUATION ----
+Test epoch 39, loss: 0.845235, test acc: 0.856969, test avg acc: 0.808262
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:46:49.214133
+**** EPOCH 040 ****
+Train epoch 40, loss: 0.807280, train acc: 0.881311, train avg acc: 0.821916
+---- EPOCH 040 EVALUATION ----
+Test epoch 40, loss: 0.856653, test acc: 0.858185, test avg acc: 0.804233
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:47:38.253873
+**** EPOCH 041 ****
+Train epoch 41, loss: 0.812237, train acc: 0.880802, train avg acc: 0.822650
+---- EPOCH 041 EVALUATION ----
+Test epoch 41, loss: 0.782368, test acc: 0.876013, test avg acc: 0.833703
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:48:26.929059
+**** EPOCH 042 ****
+Train epoch 42, loss: 0.787125, train acc: 0.890371, train avg acc: 0.835593
+---- EPOCH 042 EVALUATION ----
+Test epoch 42, loss: 0.763175, test acc: 0.897893, test avg acc: 0.841215
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:49:15.062861
+**** EPOCH 043 ****
+Train epoch 43, loss: 0.800808, train acc: 0.878461, train avg acc: 0.817583
+---- EPOCH 043 EVALUATION ----
+Test epoch 43, loss: 0.781487, test acc: 0.885737, test avg acc: 0.844174
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:50:04.225787
+**** EPOCH 044 ****
+Train epoch 44, loss: 0.795772, train acc: 0.883550, train avg acc: 0.822939
+---- EPOCH 044 EVALUATION ----
+Test epoch 44, loss: 0.832380, test acc: 0.862237, test avg acc: 0.811116
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:50:53.249852
+**** EPOCH 045 ****
+Train epoch 45, loss: 0.790780, train acc: 0.886095, train avg acc: 0.830477
+---- EPOCH 045 EVALUATION ----
+Test epoch 45, loss: 0.775827, test acc: 0.884927, test avg acc: 0.823169
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:51:41.650083
+**** EPOCH 046 ****
+Train epoch 46, loss: 0.784121, train acc: 0.888335, train avg acc: 0.832114
+---- EPOCH 046 EVALUATION ----
+Test epoch 46, loss: 0.786016, test acc: 0.880470, test avg acc: 0.824349
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:52:30.633365
+**** EPOCH 047 ****
+Train epoch 47, loss: 0.798722, train acc: 0.882329, train avg acc: 0.824901
+---- EPOCH 047 EVALUATION ----
+Test epoch 47, loss: 0.806848, test acc: 0.868720, test avg acc: 0.837942
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:53:19.666389
+**** EPOCH 048 ****
+Train epoch 48, loss: 0.776551, train acc: 0.891490, train avg acc: 0.837944
+---- EPOCH 048 EVALUATION ----
+Test epoch 48, loss: 0.828297, test acc: 0.867099, test avg acc: 0.797959
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:54:07.872488
+**** EPOCH 049 ****
+Train epoch 49, loss: 0.781734, train acc: 0.890574, train avg acc: 0.834560
+---- EPOCH 049 EVALUATION ----
+Test epoch 49, loss: 0.846796, test acc: 0.850486, test avg acc: 0.805762
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:54:56.257581
+**** EPOCH 050 ****
+Train epoch 50, loss: 0.783614, train acc: 0.887011, train avg acc: 0.829706
+---- EPOCH 050 EVALUATION ----
+Test epoch 50, loss: 0.770215, test acc: 0.889384, test avg acc: 0.854773
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:55:44.776048
+**** EPOCH 051 ****
+Train epoch 51, loss: 0.782697, train acc: 0.889353, train avg acc: 0.833600
+---- EPOCH 051 EVALUATION ----
+Test epoch 51, loss: 0.748836, test acc: 0.894246, test avg acc: 0.853401
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:56:33.481303
+**** EPOCH 052 ****
+Train epoch 52, loss: 0.787758, train acc: 0.886197, train avg acc: 0.832276
+---- EPOCH 052 EVALUATION ----
+Test epoch 52, loss: 0.806707, test acc: 0.876418, test avg acc: 0.833674
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:57:21.886591
+**** EPOCH 053 ****
+Train epoch 53, loss: 0.784326, train acc: 0.891796, train avg acc: 0.837758
+---- EPOCH 053 EVALUATION ----
+Test epoch 53, loss: 0.767671, test acc: 0.893031, test avg acc: 0.857814
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:58:10.659341
+**** EPOCH 054 ****
+Train epoch 54, loss: 0.763832, train acc: 0.895765, train avg acc: 0.844149
+---- EPOCH 054 EVALUATION ----
+Test epoch 54, loss: 0.769869, test acc: 0.886953, test avg acc: 0.844477
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:58:59.356727
+**** EPOCH 055 ****
+Train epoch 55, loss: 0.772891, train acc: 0.891592, train avg acc: 0.839031
+---- EPOCH 055 EVALUATION ----
+Test epoch 55, loss: 0.776857, test acc: 0.882901, test avg acc: 0.825256
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 14:59:47.562570
+**** EPOCH 056 ****
+Train epoch 56, loss: 0.762195, train acc: 0.896173, train avg acc: 0.843321
+---- EPOCH 056 EVALUATION ----
+Test epoch 56, loss: 0.784206, test acc: 0.880065, test avg acc: 0.821965
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:00:35.852909
+**** EPOCH 057 ****
+Train epoch 57, loss: 0.767910, train acc: 0.895460, train avg acc: 0.844418
+---- EPOCH 057 EVALUATION ----
+Test epoch 57, loss: 0.820705, test acc: 0.869530, test avg acc: 0.810442
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:01:24.698120
+**** EPOCH 058 ****
+Train epoch 58, loss: 0.771840, train acc: 0.890167, train avg acc: 0.833876
+---- EPOCH 058 EVALUATION ----
+Test epoch 58, loss: 0.782133, test acc: 0.882901, test avg acc: 0.836000
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:02:12.980114
+**** EPOCH 059 ****
+Train epoch 59, loss: 0.784750, train acc: 0.886401, train avg acc: 0.828789
+---- EPOCH 059 EVALUATION ----
+Test epoch 59, loss: 0.749549, test acc: 0.894652, test avg acc: 0.847006
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:03:01.675950
+**** EPOCH 060 ****
+Train epoch 60, loss: 0.768256, train acc: 0.894137, train avg acc: 0.842922
+---- EPOCH 060 EVALUATION ----
+Test epoch 60, loss: 0.813158, test acc: 0.871961, test avg acc: 0.812837
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:03:50.118252
+**** EPOCH 061 ****
+Train epoch 61, loss: 0.756534, train acc: 0.898208, train avg acc: 0.846351
+---- EPOCH 061 EVALUATION ----
+Test epoch 61, loss: 0.746486, test acc: 0.891815, test avg acc: 0.847297
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:04:38.250245
+**** EPOCH 062 ****
+Train epoch 62, loss: 0.755651, train acc: 0.896478, train avg acc: 0.844607
+---- EPOCH 062 EVALUATION ----
+Test epoch 62, loss: 0.751832, test acc: 0.881280, test avg acc: 0.835221
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:05:26.619276
+**** EPOCH 063 ****
+Train epoch 63, loss: 0.773666, train acc: 0.892305, train avg acc: 0.838644
+---- EPOCH 063 EVALUATION ----
+Test epoch 63, loss: 0.850126, test acc: 0.855754, test avg acc: 0.822308
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:06:15.200623
+**** EPOCH 064 ****
+Train epoch 64, loss: 0.752947, train acc: 0.899532, train avg acc: 0.850319
+---- EPOCH 064 EVALUATION ----
+Test epoch 64, loss: 0.756748, test acc: 0.895057, test avg acc: 0.858203
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:07:03.375506
+**** EPOCH 065 ****
+Train epoch 65, loss: 0.761874, train acc: 0.895765, train avg acc: 0.845445
+---- EPOCH 065 EVALUATION ----
+Test epoch 65, loss: 0.783245, test acc: 0.876823, test avg acc: 0.848895
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:07:52.070784
+**** EPOCH 066 ****
+Train epoch 66, loss: 0.758721, train acc: 0.898616, train avg acc: 0.845469
+---- EPOCH 066 EVALUATION ----
+Test epoch 66, loss: 0.756028, test acc: 0.882496, test avg acc: 0.826378
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:08:40.745079
+**** EPOCH 067 ****
+Train epoch 67, loss: 0.757707, train acc: 0.899226, train avg acc: 0.847546
+---- EPOCH 067 EVALUATION ----
+Test epoch 67, loss: 0.775637, test acc: 0.882496, test avg acc: 0.840959
+*** best accuracy *** - 0.898703
+*** at then, best class accuracy *** -  0.828535
+2021-11-13 15:09:29.299808
+**** EPOCH 068 ****
+Train epoch 68, loss: 0.761943, train acc: 0.899023, train avg acc: 0.847694
+---- EPOCH 068 EVALUATION ----
+Test epoch 68, loss: 0.733222, test acc: 0.903971, test avg acc: 0.862419
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:10:18.512984
+**** EPOCH 069 ****
+Train epoch 69, loss: 0.757893, train acc: 0.896071, train avg acc: 0.847085
+---- EPOCH 069 EVALUATION ----
+Test epoch 69, loss: 0.803421, test acc: 0.875203, test avg acc: 0.845640
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:11:06.976678
+**** EPOCH 070 ****
+Train epoch 70, loss: 0.750447, train acc: 0.897801, train avg acc: 0.846738
+---- EPOCH 070 EVALUATION ----
+Test epoch 70, loss: 0.730729, test acc: 0.899919, test avg acc: 0.842424
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:11:55.200507
+**** EPOCH 071 ****
+Train epoch 71, loss: 0.737983, train acc: 0.904011, train avg acc: 0.857958
+---- EPOCH 071 EVALUATION ----
+Test epoch 71, loss: 0.794989, test acc: 0.870340, test avg acc: 0.829128
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:12:43.611866
+**** EPOCH 072 ****
+Train epoch 72, loss: 0.744564, train acc: 0.899532, train avg acc: 0.848739
+---- EPOCH 072 EVALUATION ----
+Test epoch 72, loss: 0.785087, test acc: 0.876013, test avg acc: 0.851238
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:13:31.862108
+**** EPOCH 073 ****
+Train epoch 73, loss: 0.736146, train acc: 0.902789, train avg acc: 0.855714
+---- EPOCH 073 EVALUATION ----
+Test epoch 73, loss: 0.764565, test acc: 0.879254, test avg acc: 0.837587
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:14:20.187987
+**** EPOCH 074 ****
+Train epoch 74, loss: 0.745141, train acc: 0.899226, train avg acc: 0.849860
+---- EPOCH 074 EVALUATION ----
+Test epoch 74, loss: 0.774943, test acc: 0.883306, test avg acc: 0.859698
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:15:08.550871
+**** EPOCH 075 ****
+Train epoch 75, loss: 0.745907, train acc: 0.900448, train avg acc: 0.851469
+---- EPOCH 075 EVALUATION ----
+Test epoch 75, loss: 0.781363, test acc: 0.880065, test avg acc: 0.850233
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:15:56.904308
+**** EPOCH 076 ****
+Train epoch 76, loss: 0.742606, train acc: 0.901873, train avg acc: 0.850523
+---- EPOCH 076 EVALUATION ----
+Test epoch 76, loss: 0.723333, test acc: 0.898298, test avg acc: 0.853581
+*** best accuracy *** - 0.903971
+*** at then, best class accuracy *** -  0.862419
+2021-11-13 15:16:45.581136
+**** EPOCH 077 ****
+Train epoch 77, loss: 0.739021, train acc: 0.903502, train avg acc: 0.856359
+---- EPOCH 077 EVALUATION ----
+Test epoch 77, loss: 0.698759, test acc: 0.906807, test avg acc: 0.867087
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:17:35.614965
+**** EPOCH 078 ****
+Train epoch 78, loss: 0.727929, train acc: 0.905232, train avg acc: 0.858902
+---- EPOCH 078 EVALUATION ----
+Test epoch 78, loss: 0.727018, test acc: 0.902350, test avg acc: 0.837674
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:18:23.534508
+**** EPOCH 079 ****
+Train epoch 79, loss: 0.738675, train acc: 0.905945, train avg acc: 0.860593
+---- EPOCH 079 EVALUATION ----
+Test epoch 79, loss: 0.765390, test acc: 0.889384, test avg acc: 0.844849
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:19:12.122241
+**** EPOCH 080 ****
+Train epoch 80, loss: 0.751875, train acc: 0.898310, train avg acc: 0.849186
+---- EPOCH 080 EVALUATION ----
+Test epoch 80, loss: 0.740527, test acc: 0.896677, test avg acc: 0.857349
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:20:00.713954
+**** EPOCH 081 ****
+Train epoch 81, loss: 0.750610, train acc: 0.896987, train avg acc: 0.848059
+---- EPOCH 081 EVALUATION ----
+Test epoch 81, loss: 0.820150, test acc: 0.869935, test avg acc: 0.822186
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:20:49.517013
+**** EPOCH 082 ****
+Train epoch 82, loss: 0.724833, train acc: 0.909609, train avg acc: 0.863870
+---- EPOCH 082 EVALUATION ----
+Test epoch 82, loss: 0.745103, test acc: 0.894652, test avg acc: 0.850645
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:21:37.817882
+**** EPOCH 083 ****
+Train epoch 83, loss: 0.746439, train acc: 0.901771, train avg acc: 0.854808
+---- EPOCH 083 EVALUATION ----
+Test epoch 83, loss: 0.815239, test acc: 0.864263, test avg acc: 0.830808
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:22:26.853286
+**** EPOCH 084 ****
+Train epoch 84, loss: 0.718375, train acc: 0.910220, train avg acc: 0.863050
+---- EPOCH 084 EVALUATION ----
+Test epoch 84, loss: 0.731587, test acc: 0.891005, test avg acc: 0.862727
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:23:14.971754
+**** EPOCH 085 ****
+Train epoch 85, loss: 0.730579, train acc: 0.907573, train avg acc: 0.862743
+---- EPOCH 085 EVALUATION ----
+Test epoch 85, loss: 0.742558, test acc: 0.892626, test avg acc: 0.872715
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:24:03.454696
+**** EPOCH 086 ****
+Train epoch 86, loss: 0.723401, train acc: 0.911136, train avg acc: 0.870647
+---- EPOCH 086 EVALUATION ----
+Test epoch 86, loss: 0.724567, test acc: 0.893031, test avg acc: 0.843814
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:24:51.429135
+**** EPOCH 087 ****
+Train epoch 87, loss: 0.735890, train acc: 0.905537, train avg acc: 0.859094
+---- EPOCH 087 EVALUATION ----
+Test epoch 87, loss: 0.760690, test acc: 0.881280, test avg acc: 0.810000
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:25:39.914724
+**** EPOCH 088 ****
+Train epoch 88, loss: 0.717143, train acc: 0.911238, train avg acc: 0.866694
+---- EPOCH 088 EVALUATION ----
+Test epoch 88, loss: 0.780035, test acc: 0.878849, test avg acc: 0.826413
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:26:27.878593
+**** EPOCH 089 ****
+Train epoch 89, loss: 0.734815, train acc: 0.906861, train avg acc: 0.861882
+---- EPOCH 089 EVALUATION ----
+Test epoch 89, loss: 0.794223, test acc: 0.885737, test avg acc: 0.845983
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:27:16.754899
+**** EPOCH 090 ****
+Train epoch 90, loss: 0.737567, train acc: 0.903603, train avg acc: 0.857804
+---- EPOCH 090 EVALUATION ----
+Test epoch 90, loss: 0.712878, test acc: 0.905186, test avg acc: 0.853750
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:28:05.748486
+**** EPOCH 091 ****
+Train epoch 91, loss: 0.717276, train acc: 0.909100, train avg acc: 0.863872
+---- EPOCH 091 EVALUATION ----
+Test epoch 91, loss: 0.735190, test acc: 0.892626, test avg acc: 0.847221
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:28:53.847138
+**** EPOCH 092 ****
+Train epoch 92, loss: 0.723519, train acc: 0.910016, train avg acc: 0.864310
+---- EPOCH 092 EVALUATION ----
+Test epoch 92, loss: 0.780947, test acc: 0.887763, test avg acc: 0.857953
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:29:42.322446
+**** EPOCH 093 ****
+Train epoch 93, loss: 0.733049, train acc: 0.904927, train avg acc: 0.861278
+---- EPOCH 093 EVALUATION ----
+Test epoch 93, loss: 0.731924, test acc: 0.900729, test avg acc: 0.840262
+*** best accuracy *** - 0.906807
+*** at then, best class accuracy *** -  0.867087
+2021-11-13 15:30:30.606868
+**** EPOCH 094 ****
+Train epoch 94, loss: 0.715201, train acc: 0.912866, train avg acc: 0.872625
+---- EPOCH 094 EVALUATION ----
+Test epoch 94, loss: 0.697110, test acc: 0.908428, test avg acc: 0.858884
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:31:20.234332
+**** EPOCH 095 ****
+Train epoch 95, loss: 0.710905, train acc: 0.911340, train avg acc: 0.866046
+---- EPOCH 095 EVALUATION ----
+Test epoch 95, loss: 0.743134, test acc: 0.895462, test avg acc: 0.842709
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:32:08.150784
+**** EPOCH 096 ****
+Train epoch 96, loss: 0.730773, train acc: 0.904214, train avg acc: 0.857103
+---- EPOCH 096 EVALUATION ----
+Test epoch 96, loss: 0.750142, test acc: 0.894652, test avg acc: 0.856500
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:32:56.309183
+**** EPOCH 097 ****
+Train epoch 97, loss: 0.715692, train acc: 0.911849, train avg acc: 0.868619
+---- EPOCH 097 EVALUATION ----
+Test epoch 97, loss: 0.740181, test acc: 0.888979, test avg acc: 0.847878
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:33:44.178156
+**** EPOCH 098 ****
+Train epoch 98, loss: 0.724579, train acc: 0.910525, train avg acc: 0.863087
+---- EPOCH 098 EVALUATION ----
+Test epoch 98, loss: 0.759041, test acc: 0.881686, test avg acc: 0.838872
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:34:32.659568
+**** EPOCH 099 ****
+Train epoch 99, loss: 0.722760, train acc: 0.907573, train avg acc: 0.859409
+---- EPOCH 099 EVALUATION ----
+Test epoch 99, loss: 0.721680, test acc: 0.898298, test avg acc: 0.858843
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:35:20.983543
+**** EPOCH 100 ****
+Train epoch 100, loss: 0.707707, train acc: 0.915106, train avg acc: 0.876363
+---- EPOCH 100 EVALUATION ----
+Test epoch 100, loss: 0.730981, test acc: 0.895462, test avg acc: 0.845465
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:36:09.461140
+**** EPOCH 101 ****
+Train epoch 101, loss: 0.717965, train acc: 0.909711, train avg acc: 0.865559
+---- EPOCH 101 EVALUATION ----
+Test epoch 101, loss: 0.733382, test acc: 0.901135, test avg acc: 0.861221
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:36:57.952884
+**** EPOCH 102 ****
+Train epoch 102, loss: 0.724122, train acc: 0.905945, train avg acc: 0.859233
+---- EPOCH 102 EVALUATION ----
+Test epoch 102, loss: 0.713662, test acc: 0.893031, test avg acc: 0.841593
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:37:46.011414
+**** EPOCH 103 ****
+Train epoch 103, loss: 0.716920, train acc: 0.909711, train avg acc: 0.866892
+---- EPOCH 103 EVALUATION ----
+Test epoch 103, loss: 0.810550, test acc: 0.859806, test avg acc: 0.822087
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:38:34.052996
+**** EPOCH 104 ****
+Train epoch 104, loss: 0.710493, train acc: 0.912765, train avg acc: 0.867788
+---- EPOCH 104 EVALUATION ----
+Test epoch 104, loss: 0.745817, test acc: 0.893436, test avg acc: 0.859099
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:39:21.975799
+**** EPOCH 105 ****
+Train epoch 105, loss: 0.718611, train acc: 0.906861, train avg acc: 0.860676
+---- EPOCH 105 EVALUATION ----
+Test epoch 105, loss: 0.762690, test acc: 0.890600, test avg acc: 0.852849
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:40:10.251053
+**** EPOCH 106 ****
+Train epoch 106, loss: 0.719159, train acc: 0.907980, train avg acc: 0.863303
+---- EPOCH 106 EVALUATION ----
+Test epoch 106, loss: 0.753048, test acc: 0.888979, test avg acc: 0.862506
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:40:58.726612
+**** EPOCH 107 ****
+Train epoch 107, loss: 0.704145, train acc: 0.918160, train avg acc: 0.876154
+---- EPOCH 107 EVALUATION ----
+Test epoch 107, loss: 0.753010, test acc: 0.887358, test avg acc: 0.854337
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:41:47.050310
+**** EPOCH 108 ****
+Train epoch 108, loss: 0.702848, train acc: 0.914597, train avg acc: 0.870742
+---- EPOCH 108 EVALUATION ----
+Test epoch 108, loss: 0.772378, test acc: 0.881280, test avg acc: 0.832099
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:42:35.486776
+**** EPOCH 109 ****
+Train epoch 109, loss: 0.719085, train acc: 0.908795, train avg acc: 0.864148
+---- EPOCH 109 EVALUATION ----
+Test epoch 109, loss: 0.786346, test acc: 0.872771, test avg acc: 0.819308
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:43:24.160140
+**** EPOCH 110 ****
+Train epoch 110, loss: 0.717373, train acc: 0.912256, train avg acc: 0.868344
+---- EPOCH 110 EVALUATION ----
+Test epoch 110, loss: 0.746487, test acc: 0.899919, test avg acc: 0.858802
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:44:12.445689
+**** EPOCH 111 ****
+Train epoch 111, loss: 0.720224, train acc: 0.909406, train avg acc: 0.865011
+---- EPOCH 111 EVALUATION ----
+Test epoch 111, loss: 0.732858, test acc: 0.902755, test avg acc: 0.853378
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:45:01.155714
+**** EPOCH 112 ****
+Train epoch 112, loss: 0.717084, train acc: 0.911034, train avg acc: 0.862722
+---- EPOCH 112 EVALUATION ----
+Test epoch 112, loss: 0.760571, test acc: 0.885737, test avg acc: 0.839547
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:45:49.317096
+**** EPOCH 113 ****
+Train epoch 113, loss: 0.690452, train acc: 0.921519, train avg acc: 0.881658
+---- EPOCH 113 EVALUATION ----
+Test epoch 113, loss: 0.748571, test acc: 0.893031, test avg acc: 0.861570
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:46:37.315143
+**** EPOCH 114 ****
+Train epoch 114, loss: 0.703415, train acc: 0.913986, train avg acc: 0.872161
+---- EPOCH 114 EVALUATION ----
+Test epoch 114, loss: 0.747832, test acc: 0.886143, test avg acc: 0.839576
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:47:25.797942
+**** EPOCH 115 ****
+Train epoch 115, loss: 0.708420, train acc: 0.910831, train avg acc: 0.865815
+---- EPOCH 115 EVALUATION ----
+Test epoch 115, loss: 0.756046, test acc: 0.890194, test avg acc: 0.861680
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:48:14.338980
+**** EPOCH 116 ****
+Train epoch 116, loss: 0.712580, train acc: 0.911340, train avg acc: 0.868175
+---- EPOCH 116 EVALUATION ----
+Test epoch 116, loss: 0.783019, test acc: 0.884117, test avg acc: 0.829802
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:49:02.600092
+**** EPOCH 117 ****
+Train epoch 117, loss: 0.709663, train acc: 0.913375, train avg acc: 0.868564
+---- EPOCH 117 EVALUATION ----
+Test epoch 117, loss: 0.801065, test acc: 0.869125, test avg acc: 0.816669
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:49:51.051394
+**** EPOCH 118 ****
+Train epoch 118, loss: 0.701999, train acc: 0.915920, train avg acc: 0.876610
+---- EPOCH 118 EVALUATION ----
+Test epoch 118, loss: 0.741700, test acc: 0.897893, test avg acc: 0.846727
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:50:39.470395
+**** EPOCH 119 ****
+Train epoch 119, loss: 0.701049, train acc: 0.917854, train avg acc: 0.876825
+---- EPOCH 119 EVALUATION ----
+Test epoch 119, loss: 0.735117, test acc: 0.884117, test avg acc: 0.836453
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:51:27.863827
+**** EPOCH 120 ****
+Train epoch 120, loss: 0.703586, train acc: 0.915208, train avg acc: 0.873799
+---- EPOCH 120 EVALUATION ----
+Test epoch 120, loss: 0.725567, test acc: 0.896272, test avg acc: 0.844924
+*** best accuracy *** - 0.908428
+*** at then, best class accuracy *** -  0.858884
+2021-11-13 15:52:16.301589
+**** EPOCH 121 ****
+Train epoch 121, loss: 0.694775, train acc: 0.921824, train avg acc: 0.883531
+---- EPOCH 121 EVALUATION ----
+Test epoch 121, loss: 0.697410, test acc: 0.912885, test avg acc: 0.865884
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.912885
+*** at then, best class accuracy *** -  0.865884
+2021-11-13 15:53:05.782515
+**** EPOCH 122 ****
+Train epoch 122, loss: 0.691665, train acc: 0.919076, train avg acc: 0.882001
+---- EPOCH 122 EVALUATION ----
+Test epoch 122, loss: 0.701997, test acc: 0.913290, test avg acc: 0.862128
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 15:53:54.284446
+**** EPOCH 123 ****
+Train epoch 123, loss: 0.708004, train acc: 0.914088, train avg acc: 0.870464
+---- EPOCH 123 EVALUATION ----
+Test epoch 123, loss: 0.703262, test acc: 0.906402, test avg acc: 0.863517
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 15:54:42.700080
+**** EPOCH 124 ****
+Train epoch 124, loss: 0.694886, train acc: 0.918669, train avg acc: 0.881671
+---- EPOCH 124 EVALUATION ----
+Test epoch 124, loss: 0.737780, test acc: 0.882901, test avg acc: 0.823052
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 15:55:31.159479
+**** EPOCH 125 ****
+Train epoch 125, loss: 0.700500, train acc: 0.915615, train avg acc: 0.874808
+---- EPOCH 125 EVALUATION ----
+Test epoch 125, loss: 0.759110, test acc: 0.889384, test avg acc: 0.853587
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 15:56:19.566009
+**** EPOCH 126 ****
+Train epoch 126, loss: 0.696565, train acc: 0.917549, train avg acc: 0.879175
+---- EPOCH 126 EVALUATION ----
+Test epoch 126, loss: 0.705428, test acc: 0.908833, test avg acc: 0.863773
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 15:57:07.817651
+**** EPOCH 127 ****
+Train epoch 127, loss: 0.692079, train acc: 0.917956, train avg acc: 0.875251
+---- EPOCH 127 EVALUATION ----
+Test epoch 127, loss: 0.722731, test acc: 0.902350, test avg acc: 0.847465
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 15:57:56.253122
+**** EPOCH 128 ****
+Train epoch 128, loss: 0.700976, train acc: 0.919076, train avg acc: 0.883099
+---- EPOCH 128 EVALUATION ----
+Test epoch 128, loss: 0.827475, test acc: 0.870340, test avg acc: 0.841105
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 15:58:44.741254
+**** EPOCH 129 ****
+Train epoch 129, loss: 0.695523, train acc: 0.917243, train avg acc: 0.875809
+---- EPOCH 129 EVALUATION ----
+Test epoch 129, loss: 0.750133, test acc: 0.889789, test avg acc: 0.869064
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 15:59:33.443215
+**** EPOCH 130 ****
+Train epoch 130, loss: 0.676408, train acc: 0.924369, train avg acc: 0.887331
+---- EPOCH 130 EVALUATION ----
+Test epoch 130, loss: 0.699746, test acc: 0.905186, test avg acc: 0.853250
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:00:21.833572
+**** EPOCH 131 ****
+Train epoch 131, loss: 0.692322, train acc: 0.917651, train avg acc: 0.875400
+---- EPOCH 131 EVALUATION ----
+Test epoch 131, loss: 0.735866, test acc: 0.895057, test avg acc: 0.856605
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:01:10.551458
+**** EPOCH 132 ****
+Train epoch 132, loss: 0.698449, train acc: 0.912968, train avg acc: 0.869910
+---- EPOCH 132 EVALUATION ----
+Test epoch 132, loss: 0.732504, test acc: 0.895867, test avg acc: 0.847797
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:01:59.065339
+**** EPOCH 133 ****
+Train epoch 133, loss: 0.682033, train acc: 0.925489, train avg acc: 0.887420
+---- EPOCH 133 EVALUATION ----
+Test epoch 133, loss: 0.736298, test acc: 0.894652, test avg acc: 0.853901
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:02:47.263066
+**** EPOCH 134 ****
+Train epoch 134, loss: 0.688592, train acc: 0.917549, train avg acc: 0.875513
+---- EPOCH 134 EVALUATION ----
+Test epoch 134, loss: 0.751805, test acc: 0.898298, test avg acc: 0.860227
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:03:36.157489
+**** EPOCH 135 ****
+Train epoch 135, loss: 0.668482, train acc: 0.926507, train avg acc: 0.892436
+---- EPOCH 135 EVALUATION ----
+Test epoch 135, loss: 0.770265, test acc: 0.878444, test avg acc: 0.848506
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:04:24.626322
+**** EPOCH 136 ****
+Train epoch 136, loss: 0.691465, train acc: 0.917752, train avg acc: 0.875033
+---- EPOCH 136 EVALUATION ----
+Test epoch 136, loss: 0.795732, test acc: 0.882091, test avg acc: 0.824733
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:05:13.414120
+**** EPOCH 137 ****
+Train epoch 137, loss: 0.691738, train acc: 0.914902, train avg acc: 0.876756
+---- EPOCH 137 EVALUATION ----
+Test epoch 137, loss: 0.761140, test acc: 0.887358, test avg acc: 0.850581
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:06:01.814993
+**** EPOCH 138 ****
+Train epoch 138, loss: 0.688328, train acc: 0.919890, train avg acc: 0.878980
+---- EPOCH 138 EVALUATION ----
+Test epoch 138, loss: 0.770916, test acc: 0.887763, test avg acc: 0.859512
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:06:50.569767
+**** EPOCH 139 ****
+Train epoch 139, loss: 0.691896, train acc: 0.918363, train avg acc: 0.879651
+---- EPOCH 139 EVALUATION ----
+Test epoch 139, loss: 0.697678, test acc: 0.910454, test avg acc: 0.861244
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:07:39.301712
+**** EPOCH 140 ****
+Train epoch 140, loss: 0.683996, train acc: 0.920501, train avg acc: 0.881262
+---- EPOCH 140 EVALUATION ----
+Test epoch 140, loss: 0.765968, test acc: 0.883306, test avg acc: 0.870081
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:08:27.374911
+**** EPOCH 141 ****
+Train epoch 141, loss: 0.686837, train acc: 0.922129, train avg acc: 0.882523
+---- EPOCH 141 EVALUATION ----
+Test epoch 141, loss: 0.722950, test acc: 0.900729, test avg acc: 0.858297
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:09:15.690156
+**** EPOCH 142 ****
+Train epoch 142, loss: 0.674246, train acc: 0.925081, train avg acc: 0.888205
+---- EPOCH 142 EVALUATION ----
+Test epoch 142, loss: 0.786005, test acc: 0.873582, test avg acc: 0.844843
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:10:04.199162
+**** EPOCH 143 ****
+Train epoch 143, loss: 0.684980, train acc: 0.922231, train avg acc: 0.883507
+---- EPOCH 143 EVALUATION ----
+Test epoch 143, loss: 0.730132, test acc: 0.897893, test avg acc: 0.873506
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:10:52.709809
+**** EPOCH 144 ****
+Train epoch 144, loss: 0.684417, train acc: 0.923962, train avg acc: 0.886881
+---- EPOCH 144 EVALUATION ----
+Test epoch 144, loss: 0.705755, test acc: 0.908023, test avg acc: 0.875826
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:11:41.150338
+**** EPOCH 145 ****
+Train epoch 145, loss: 0.699646, train acc: 0.914393, train avg acc: 0.874296
+---- EPOCH 145 EVALUATION ----
+Test epoch 145, loss: 0.800688, test acc: 0.876418, test avg acc: 0.836314
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:12:30.027133
+**** EPOCH 146 ****
+Train epoch 146, loss: 0.676884, train acc: 0.924572, train avg acc: 0.887221
+---- EPOCH 146 EVALUATION ----
+Test epoch 146, loss: 0.731370, test acc: 0.901540, test avg acc: 0.854291
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:13:18.849391
+**** EPOCH 147 ****
+Train epoch 147, loss: 0.678985, train acc: 0.924674, train avg acc: 0.886227
+---- EPOCH 147 EVALUATION ----
+Test epoch 147, loss: 0.753028, test acc: 0.888574, test avg acc: 0.856587
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:14:06.997166
+**** EPOCH 148 ****
+Train epoch 148, loss: 0.675513, train acc: 0.925285, train avg acc: 0.891210
+---- EPOCH 148 EVALUATION ----
+Test epoch 148, loss: 0.700647, test acc: 0.905186, test avg acc: 0.867169
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:14:55.210194
+**** EPOCH 149 ****
+Train epoch 149, loss: 0.681618, train acc: 0.923758, train avg acc: 0.885950
+---- EPOCH 149 EVALUATION ----
+Test epoch 149, loss: 0.805291, test acc: 0.871961, test avg acc: 0.827401
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:15:43.766215
+**** EPOCH 150 ****
+Train epoch 150, loss: 0.674346, train acc: 0.924471, train avg acc: 0.886464
+---- EPOCH 150 EVALUATION ----
+Test epoch 150, loss: 0.738312, test acc: 0.899514, test avg acc: 0.864419
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:16:32.139254
+**** EPOCH 151 ****
+Train epoch 151, loss: 0.684698, train acc: 0.922231, train avg acc: 0.885676
+---- EPOCH 151 EVALUATION ----
+Test epoch 151, loss: 0.750620, test acc: 0.891005, test avg acc: 0.859436
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:17:20.737825
+**** EPOCH 152 ****
+Train epoch 152, loss: 0.677900, train acc: 0.921519, train avg acc: 0.884379
+---- EPOCH 152 EVALUATION ----
+Test epoch 152, loss: 0.795860, test acc: 0.877634, test avg acc: 0.868221
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:18:09.252945
+**** EPOCH 153 ****
+Train epoch 153, loss: 0.672621, train acc: 0.923758, train avg acc: 0.885957
+---- EPOCH 153 EVALUATION ----
+Test epoch 153, loss: 0.810798, test acc: 0.878039, test avg acc: 0.857465
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:18:57.413496
+**** EPOCH 154 ****
+Train epoch 154, loss: 0.680757, train acc: 0.921417, train avg acc: 0.881900
+---- EPOCH 154 EVALUATION ----
+Test epoch 154, loss: 0.738599, test acc: 0.903971, test avg acc: 0.873041
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:19:46.148411
+**** EPOCH 155 ****
+Train epoch 155, loss: 0.679217, train acc: 0.923962, train avg acc: 0.887115
+---- EPOCH 155 EVALUATION ----
+Test epoch 155, loss: 0.796298, test acc: 0.879254, test avg acc: 0.870337
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:20:34.628233
+**** EPOCH 156 ****
+Train epoch 156, loss: 0.675285, train acc: 0.925489, train avg acc: 0.889528
+---- EPOCH 156 EVALUATION ----
+Test epoch 156, loss: 0.758684, test acc: 0.887358, test avg acc: 0.846017
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:21:23.367747
+**** EPOCH 157 ****
+Train epoch 157, loss: 0.669395, train acc: 0.924165, train avg acc: 0.886956
+---- EPOCH 157 EVALUATION ----
+Test epoch 157, loss: 0.725114, test acc: 0.886548, test avg acc: 0.854349
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:22:12.152093
+**** EPOCH 158 ****
+Train epoch 158, loss: 0.673859, train acc: 0.923656, train avg acc: 0.886428
+---- EPOCH 158 EVALUATION ----
+Test epoch 158, loss: 0.728560, test acc: 0.893841, test avg acc: 0.861419
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:23:00.811570
+**** EPOCH 159 ****
+Train epoch 159, loss: 0.672697, train acc: 0.923962, train avg acc: 0.885028
+---- EPOCH 159 EVALUATION ----
+Test epoch 159, loss: 0.715921, test acc: 0.903566, test avg acc: 0.861890
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:23:49.370283
+**** EPOCH 160 ****
+Train epoch 160, loss: 0.670713, train acc: 0.924878, train avg acc: 0.890038
+---- EPOCH 160 EVALUATION ----
+Test epoch 160, loss: 0.719916, test acc: 0.898703, test avg acc: 0.858884
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:24:38.165247
+**** EPOCH 161 ****
+Train epoch 161, loss: 0.676083, train acc: 0.923555, train avg acc: 0.883137
+---- EPOCH 161 EVALUATION ----
+Test epoch 161, loss: 0.705604, test acc: 0.912885, test avg acc: 0.861122
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:25:26.682284
+**** EPOCH 162 ****
+Train epoch 162, loss: 0.676384, train acc: 0.923860, train avg acc: 0.885738
+---- EPOCH 162 EVALUATION ----
+Test epoch 162, loss: 0.721707, test acc: 0.898703, test avg acc: 0.858750
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:26:15.639512
+**** EPOCH 163 ****
+Train epoch 163, loss: 0.664634, train acc: 0.928033, train avg acc: 0.889948
+---- EPOCH 163 EVALUATION ----
+Test epoch 163, loss: 0.744868, test acc: 0.898298, test avg acc: 0.863105
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:27:04.350621
+**** EPOCH 164 ****
+Train epoch 164, loss: 0.651383, train acc: 0.931901, train avg acc: 0.898694
+---- EPOCH 164 EVALUATION ----
+Test epoch 164, loss: 0.684270, test acc: 0.910049, test avg acc: 0.874134
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:27:52.706140
+**** EPOCH 165 ****
+Train epoch 165, loss: 0.663326, train acc: 0.927117, train avg acc: 0.891031
+---- EPOCH 165 EVALUATION ----
+Test epoch 165, loss: 0.698043, test acc: 0.907618, test avg acc: 0.876878
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:28:41.386290
+**** EPOCH 166 ****
+Train epoch 166, loss: 0.667351, train acc: 0.927830, train avg acc: 0.891405
+---- EPOCH 166 EVALUATION ----
+Test epoch 166, loss: 0.682763, test acc: 0.908023, test avg acc: 0.860384
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:29:30.053588
+**** EPOCH 167 ****
+Train epoch 167, loss: 0.659510, train acc: 0.928237, train avg acc: 0.891664
+---- EPOCH 167 EVALUATION ----
+Test epoch 167, loss: 0.724335, test acc: 0.898298, test avg acc: 0.869762
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:30:18.483243
+**** EPOCH 168 ****
+Train epoch 168, loss: 0.665524, train acc: 0.923656, train avg acc: 0.887754
+---- EPOCH 168 EVALUATION ----
+Test epoch 168, loss: 0.717389, test acc: 0.899919, test avg acc: 0.852913
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:31:07.392019
+**** EPOCH 169 ****
+Train epoch 169, loss: 0.660595, train acc: 0.927932, train avg acc: 0.893415
+---- EPOCH 169 EVALUATION ----
+Test epoch 169, loss: 0.698526, test acc: 0.903566, test avg acc: 0.863930
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:31:56.115870
+**** EPOCH 170 ****
+Train epoch 170, loss: 0.665857, train acc: 0.928441, train avg acc: 0.895425
+---- EPOCH 170 EVALUATION ----
+Test epoch 170, loss: 0.693611, test acc: 0.902755, test avg acc: 0.861000
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:32:44.554774
+**** EPOCH 171 ****
+Train epoch 171, loss: 0.660887, train acc: 0.927626, train avg acc: 0.893494
+---- EPOCH 171 EVALUATION ----
+Test epoch 171, loss: 0.688357, test acc: 0.901540, test avg acc: 0.867000
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:33:32.784312
+**** EPOCH 172 ****
+Train epoch 172, loss: 0.671428, train acc: 0.927423, train avg acc: 0.892720
+---- EPOCH 172 EVALUATION ----
+Test epoch 172, loss: 0.730359, test acc: 0.890194, test avg acc: 0.858134
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:34:21.706969
+**** EPOCH 173 ****
+Train epoch 173, loss: 0.651116, train acc: 0.932105, train avg acc: 0.899788
+---- EPOCH 173 EVALUATION ----
+Test epoch 173, loss: 0.770639, test acc: 0.886143, test avg acc: 0.863331
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:35:09.849576
+**** EPOCH 174 ****
+Train epoch 174, loss: 0.658816, train acc: 0.929866, train avg acc: 0.898659
+---- EPOCH 174 EVALUATION ----
+Test epoch 174, loss: 0.705558, test acc: 0.895867, test avg acc: 0.843767
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:35:58.385634
+**** EPOCH 175 ****
+Train epoch 175, loss: 0.652446, train acc: 0.932818, train avg acc: 0.901583
+---- EPOCH 175 EVALUATION ----
+Test epoch 175, loss: 0.700975, test acc: 0.904781, test avg acc: 0.850843
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:36:47.008326
+**** EPOCH 176 ****
+Train epoch 176, loss: 0.652423, train acc: 0.928746, train avg acc: 0.892440
+---- EPOCH 176 EVALUATION ----
+Test epoch 176, loss: 0.713809, test acc: 0.898298, test avg acc: 0.847000
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:37:35.908991
+**** EPOCH 177 ****
+Train epoch 177, loss: 0.647077, train acc: 0.934141, train avg acc: 0.899309
+---- EPOCH 177 EVALUATION ----
+Test epoch 177, loss: 0.753812, test acc: 0.887358, test avg acc: 0.861047
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:38:24.234113
+**** EPOCH 178 ****
+Train epoch 178, loss: 0.652728, train acc: 0.932003, train avg acc: 0.900751
+---- EPOCH 178 EVALUATION ----
+Test epoch 178, loss: 0.705357, test acc: 0.901945, test avg acc: 0.854517
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:39:12.445618
+**** EPOCH 179 ****
+Train epoch 179, loss: 0.659205, train acc: 0.932818, train avg acc: 0.898428
+---- EPOCH 179 EVALUATION ----
+Test epoch 179, loss: 0.710108, test acc: 0.897488, test avg acc: 0.861587
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:40:00.879478
+**** EPOCH 180 ****
+Train epoch 180, loss: 0.646932, train acc: 0.933734, train avg acc: 0.900277
+---- EPOCH 180 EVALUATION ----
+Test epoch 180, loss: 0.732685, test acc: 0.895462, test avg acc: 0.853686
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:40:49.435663
+**** EPOCH 181 ****
+Train epoch 181, loss: 0.646157, train acc: 0.934955, train avg acc: 0.900981
+---- EPOCH 181 EVALUATION ----
+Test epoch 181, loss: 0.735995, test acc: 0.892220, test avg acc: 0.872558
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:41:37.566198
+**** EPOCH 182 ****
+Train epoch 182, loss: 0.652156, train acc: 0.932309, train avg acc: 0.901068
+---- EPOCH 182 EVALUATION ----
+Test epoch 182, loss: 0.693891, test acc: 0.903160, test avg acc: 0.860186
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:42:26.260294
+**** EPOCH 183 ****
+Train epoch 183, loss: 0.640543, train acc: 0.935261, train avg acc: 0.904126
+---- EPOCH 183 EVALUATION ----
+Test epoch 183, loss: 0.705783, test acc: 0.901540, test avg acc: 0.862814
+*** best accuracy *** - 0.913290
+*** at then, best class accuracy *** -  0.862128
+2021-11-13 16:43:14.455065
+**** EPOCH 184 ****
+Train epoch 184, loss: 0.648034, train acc: 0.932512, train avg acc: 0.899956
+---- EPOCH 184 EVALUATION ----
+Test epoch 184, loss: 0.670575, test acc: 0.915721, test avg acc: 0.872419
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:44:04.179172
+**** EPOCH 185 ****
+Train epoch 185, loss: 0.657167, train acc: 0.927524, train avg acc: 0.893378
+---- EPOCH 185 EVALUATION ----
+Test epoch 185, loss: 0.735470, test acc: 0.897488, test avg acc: 0.862616
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:44:52.548915
+**** EPOCH 186 ****
+Train epoch 186, loss: 0.657699, train acc: 0.928033, train avg acc: 0.894767
+---- EPOCH 186 EVALUATION ----
+Test epoch 186, loss: 0.693925, test acc: 0.909238, test avg acc: 0.866093
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:45:41.216686
+**** EPOCH 187 ****
+Train epoch 187, loss: 0.648349, train acc: 0.933734, train avg acc: 0.901263
+---- EPOCH 187 EVALUATION ----
+Test epoch 187, loss: 0.743909, test acc: 0.890600, test avg acc: 0.857256
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:46:29.822923
+**** EPOCH 188 ****
+Train epoch 188, loss: 0.641666, train acc: 0.935159, train avg acc: 0.902111
+---- EPOCH 188 EVALUATION ----
+Test epoch 188, loss: 0.718825, test acc: 0.899109, test avg acc: 0.860517
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:47:18.051351
+**** EPOCH 189 ****
+Train epoch 189, loss: 0.640092, train acc: 0.934039, train avg acc: 0.900914
+---- EPOCH 189 EVALUATION ----
+Test epoch 189, loss: 0.712836, test acc: 0.905592, test avg acc: 0.851634
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:48:05.947110
+**** EPOCH 190 ****
+Train epoch 190, loss: 0.655570, train acc: 0.927830, train avg acc: 0.890058
+---- EPOCH 190 EVALUATION ----
+Test epoch 190, loss: 0.778501, test acc: 0.880065, test avg acc: 0.853936
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:48:54.748765
+**** EPOCH 191 ****
+Train epoch 191, loss: 0.648424, train acc: 0.929662, train avg acc: 0.895876
+---- EPOCH 191 EVALUATION ----
+Test epoch 191, loss: 0.709309, test acc: 0.903566, test avg acc: 0.860262
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:49:43.249029
+**** EPOCH 192 ****
+Train epoch 192, loss: 0.650219, train acc: 0.929255, train avg acc: 0.897346
+---- EPOCH 192 EVALUATION ----
+Test epoch 192, loss: 0.717230, test acc: 0.901135, test avg acc: 0.857971
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:50:31.750408
+**** EPOCH 193 ****
+Train epoch 193, loss: 0.640262, train acc: 0.936787, train avg acc: 0.908084
+---- EPOCH 193 EVALUATION ----
+Test epoch 193, loss: 0.740948, test acc: 0.904781, test avg acc: 0.878599
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:51:20.024970
+**** EPOCH 194 ****
+Train epoch 194, loss: 0.635197, train acc: 0.937805, train avg acc: 0.909819
+---- EPOCH 194 EVALUATION ----
+Test epoch 194, loss: 0.701627, test acc: 0.903971, test avg acc: 0.849041
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:52:08.357006
+**** EPOCH 195 ****
+Train epoch 195, loss: 0.646166, train acc: 0.936686, train avg acc: 0.905603
+---- EPOCH 195 EVALUATION ----
+Test epoch 195, loss: 0.699478, test acc: 0.905186, test avg acc: 0.876506
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:52:56.642257
+**** EPOCH 196 ****
+Train epoch 196, loss: 0.637099, train acc: 0.937602, train avg acc: 0.906979
+---- EPOCH 196 EVALUATION ----
+Test epoch 196, loss: 0.720823, test acc: 0.900729, test avg acc: 0.875709
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:53:44.940811
+**** EPOCH 197 ****
+Train epoch 197, loss: 0.640020, train acc: 0.936279, train avg acc: 0.906995
+---- EPOCH 197 EVALUATION ----
+Test epoch 197, loss: 0.714238, test acc: 0.894246, test avg acc: 0.848122
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:54:33.265883
+**** EPOCH 198 ****
+Train epoch 198, loss: 0.642210, train acc: 0.936584, train avg acc: 0.906864
+---- EPOCH 198 EVALUATION ----
+Test epoch 198, loss: 0.750917, test acc: 0.893031, test avg acc: 0.861128
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:55:21.373719
+**** EPOCH 199 ****
+Train epoch 199, loss: 0.640803, train acc: 0.934853, train avg acc: 0.899983
+---- EPOCH 199 EVALUATION ----
+Test epoch 199, loss: 0.704424, test acc: 0.909238, test avg acc: 0.864890
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:56:09.965125
+**** EPOCH 200 ****
+Train epoch 200, loss: 0.630085, train acc: 0.937602, train avg acc: 0.908098
+---- EPOCH 200 EVALUATION ----
+Test epoch 200, loss: 0.756615, test acc: 0.887358, test avg acc: 0.854151
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:56:58.114682
+**** EPOCH 201 ****
+Train epoch 201, loss: 0.646568, train acc: 0.933836, train avg acc: 0.904149
+---- EPOCH 201 EVALUATION ----
+Test epoch 201, loss: 0.706145, test acc: 0.903160, test avg acc: 0.867558
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:57:46.569751
+**** EPOCH 202 ****
+Train epoch 202, loss: 0.632679, train acc: 0.936380, train avg acc: 0.901844
+---- EPOCH 202 EVALUATION ----
+Test epoch 202, loss: 0.704445, test acc: 0.901540, test avg acc: 0.849744
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:58:34.791308
+**** EPOCH 203 ****
+Train epoch 203, loss: 0.640935, train acc: 0.934548, train avg acc: 0.902220
+---- EPOCH 203 EVALUATION ----
+Test epoch 203, loss: 0.736668, test acc: 0.902755, test avg acc: 0.866529
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 16:59:22.950474
+**** EPOCH 204 ****
+Train epoch 204, loss: 0.631467, train acc: 0.938721, train avg acc: 0.909287
+---- EPOCH 204 EVALUATION ----
+Test epoch 204, loss: 0.707728, test acc: 0.903971, test avg acc: 0.879035
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:00:11.159483
+**** EPOCH 205 ****
+Train epoch 205, loss: 0.644297, train acc: 0.935362, train avg acc: 0.904985
+---- EPOCH 205 EVALUATION ----
+Test epoch 205, loss: 0.681357, test acc: 0.909238, test avg acc: 0.875221
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:00:59.887303
+**** EPOCH 206 ****
+Train epoch 206, loss: 0.640175, train acc: 0.935871, train avg acc: 0.900803
+---- EPOCH 206 EVALUATION ----
+Test epoch 206, loss: 0.706549, test acc: 0.903566, test avg acc: 0.873128
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:01:48.667558
+**** EPOCH 207 ****
+Train epoch 207, loss: 0.621645, train acc: 0.940961, train avg acc: 0.914586
+---- EPOCH 207 EVALUATION ----
+Test epoch 207, loss: 0.724689, test acc: 0.897893, test avg acc: 0.868988
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:02:36.680542
+**** EPOCH 208 ****
+Train epoch 208, loss: 0.636656, train acc: 0.936889, train avg acc: 0.905098
+---- EPOCH 208 EVALUATION ----
+Test epoch 208, loss: 0.715527, test acc: 0.896677, test avg acc: 0.857715
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:03:25.794856
+**** EPOCH 209 ****
+Train epoch 209, loss: 0.636620, train acc: 0.937093, train avg acc: 0.907757
+---- EPOCH 209 EVALUATION ----
+Test epoch 209, loss: 0.731691, test acc: 0.897083, test avg acc: 0.877500
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:04:14.207398
+**** EPOCH 210 ****
+Train epoch 210, loss: 0.632036, train acc: 0.935973, train avg acc: 0.903623
+---- EPOCH 210 EVALUATION ----
+Test epoch 210, loss: 0.738662, test acc: 0.893031, test avg acc: 0.861907
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:05:02.706377
+**** EPOCH 211 ****
+Train epoch 211, loss: 0.632879, train acc: 0.938009, train avg acc: 0.906972
+---- EPOCH 211 EVALUATION ----
+Test epoch 211, loss: 0.677844, test acc: 0.905186, test avg acc: 0.867041
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:05:50.858895
+**** EPOCH 212 ****
+Train epoch 212, loss: 0.631073, train acc: 0.938518, train avg acc: 0.907186
+---- EPOCH 212 EVALUATION ----
+Test epoch 212, loss: 0.725037, test acc: 0.891005, test avg acc: 0.863267
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:06:39.374592
+**** EPOCH 213 ****
+Train epoch 213, loss: 0.640732, train acc: 0.936380, train avg acc: 0.905832
+---- EPOCH 213 EVALUATION ----
+Test epoch 213, loss: 0.682841, test acc: 0.905997, test avg acc: 0.870081
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:07:28.172498
+**** EPOCH 214 ****
+Train epoch 214, loss: 0.620397, train acc: 0.939027, train avg acc: 0.909663
+---- EPOCH 214 EVALUATION ----
+Test epoch 214, loss: 0.687137, test acc: 0.899919, test avg acc: 0.867087
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:08:16.776267
+**** EPOCH 215 ****
+Train epoch 215, loss: 0.619585, train acc: 0.943099, train avg acc: 0.914043
+---- EPOCH 215 EVALUATION ----
+Test epoch 215, loss: 0.705190, test acc: 0.906402, test avg acc: 0.872413
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:09:05.134035
+**** EPOCH 216 ****
+Train epoch 216, loss: 0.630918, train acc: 0.938111, train avg acc: 0.907446
+---- EPOCH 216 EVALUATION ----
+Test epoch 216, loss: 0.740164, test acc: 0.886143, test avg acc: 0.844477
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:09:53.980007
+**** EPOCH 217 ****
+Train epoch 217, loss: 0.622713, train acc: 0.940757, train avg acc: 0.910655
+---- EPOCH 217 EVALUATION ----
+Test epoch 217, loss: 0.704170, test acc: 0.906807, test avg acc: 0.866134
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:10:42.174991
+**** EPOCH 218 ****
+Train epoch 218, loss: 0.616675, train acc: 0.943709, train avg acc: 0.919265
+---- EPOCH 218 EVALUATION ----
+Test epoch 218, loss: 0.710114, test acc: 0.904781, test avg acc: 0.864477
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:11:30.801423
+**** EPOCH 219 ****
+Train epoch 219, loss: 0.624619, train acc: 0.938721, train avg acc: 0.908089
+---- EPOCH 219 EVALUATION ----
+Test epoch 219, loss: 0.718462, test acc: 0.890600, test avg acc: 0.860605
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:12:19.562743
+**** EPOCH 220 ****
+Train epoch 220, loss: 0.621111, train acc: 0.940248, train avg acc: 0.909762
+---- EPOCH 220 EVALUATION ----
+Test epoch 220, loss: 0.721121, test acc: 0.899514, test avg acc: 0.871640
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:13:08.164049
+**** EPOCH 221 ****
+Train epoch 221, loss: 0.613436, train acc: 0.945236, train avg acc: 0.917136
+---- EPOCH 221 EVALUATION ----
+Test epoch 221, loss: 0.739846, test acc: 0.889789, test avg acc: 0.860215
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:13:56.655438
+**** EPOCH 222 ****
+Train epoch 222, loss: 0.616398, train acc: 0.944829, train avg acc: 0.918159
+---- EPOCH 222 EVALUATION ----
+Test epoch 222, loss: 0.715009, test acc: 0.891815, test avg acc: 0.856506
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:14:44.853817
+**** EPOCH 223 ****
+Train epoch 223, loss: 0.621710, train acc: 0.939943, train avg acc: 0.910757
+---- EPOCH 223 EVALUATION ----
+Test epoch 223, loss: 0.681374, test acc: 0.910859, test avg acc: 0.866035
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:15:33.373195
+**** EPOCH 224 ****
+Train epoch 224, loss: 0.638037, train acc: 0.935159, train avg acc: 0.906399
+---- EPOCH 224 EVALUATION ----
+Test epoch 224, loss: 0.740388, test acc: 0.897083, test avg acc: 0.857302
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:16:22.529462
+**** EPOCH 225 ****
+Train epoch 225, loss: 0.623230, train acc: 0.940452, train avg acc: 0.912803
+---- EPOCH 225 EVALUATION ----
+Test epoch 225, loss: 0.702556, test acc: 0.901540, test avg acc: 0.871593
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:17:10.964537
+**** EPOCH 226 ****
+Train epoch 226, loss: 0.622969, train acc: 0.942895, train avg acc: 0.916559
+---- EPOCH 226 EVALUATION ----
+Test epoch 226, loss: 0.692905, test acc: 0.901945, test avg acc: 0.862535
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:17:59.356942
+**** EPOCH 227 ****
+Train epoch 227, loss: 0.614685, train acc: 0.945949, train avg acc: 0.919252
+---- EPOCH 227 EVALUATION ----
+Test epoch 227, loss: 0.700886, test acc: 0.904376, test avg acc: 0.878849
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:18:47.858339
+**** EPOCH 228 ****
+Train epoch 228, loss: 0.619050, train acc: 0.942182, train avg acc: 0.914690
+---- EPOCH 228 EVALUATION ----
+Test epoch 228, loss: 0.736517, test acc: 0.893436, test avg acc: 0.868413
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:19:36.693924
+**** EPOCH 229 ****
+Train epoch 229, loss: 0.630461, train acc: 0.937296, train avg acc: 0.908939
+---- EPOCH 229 EVALUATION ----
+Test epoch 229, loss: 0.690696, test acc: 0.906402, test avg acc: 0.867041
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:20:25.612506
+**** EPOCH 230 ****
+Train epoch 230, loss: 0.601806, train acc: 0.949817, train avg acc: 0.924128
+---- EPOCH 230 EVALUATION ----
+Test epoch 230, loss: 0.702646, test acc: 0.901540, test avg acc: 0.879163
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:21:13.853708
+**** EPOCH 231 ****
+Train epoch 231, loss: 0.622287, train acc: 0.940452, train avg acc: 0.912695
+---- EPOCH 231 EVALUATION ----
+Test epoch 231, loss: 0.714514, test acc: 0.889384, test avg acc: 0.847343
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:22:02.749767
+**** EPOCH 232 ****
+Train epoch 232, loss: 0.630535, train acc: 0.941063, train avg acc: 0.910103
+---- EPOCH 232 EVALUATION ----
+Test epoch 232, loss: 0.722537, test acc: 0.893436, test avg acc: 0.853349
+*** best accuracy *** - 0.915721
+*** at then, best class accuracy *** -  0.872419
+2021-11-13 17:22:51.491845
+**** EPOCH 233 ****
+Train epoch 233, loss: 0.607285, train acc: 0.943099, train avg acc: 0.913720
+---- EPOCH 233 EVALUATION ----
+Test epoch 233, loss: 0.660037, test acc: 0.917342, test avg acc: 0.870610
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:23:40.881326
+**** EPOCH 234 ****
+Train epoch 234, loss: 0.619483, train acc: 0.940961, train avg acc: 0.910187
+---- EPOCH 234 EVALUATION ----
+Test epoch 234, loss: 0.713695, test acc: 0.899919, test avg acc: 0.857169
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:24:29.020059
+**** EPOCH 235 ****
+Train epoch 235, loss: 0.607198, train acc: 0.946152, train avg acc: 0.919531
+---- EPOCH 235 EVALUATION ----
+Test epoch 235, loss: 0.672883, test acc: 0.913695, test avg acc: 0.861041
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:25:17.765505
+**** EPOCH 236 ****
+Train epoch 236, loss: 0.618092, train acc: 0.940757, train avg acc: 0.912776
+---- EPOCH 236 EVALUATION ----
+Test epoch 236, loss: 0.733055, test acc: 0.891005, test avg acc: 0.867087
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:26:06.563513
+**** EPOCH 237 ****
+Train epoch 237, loss: 0.602758, train acc: 0.949104, train avg acc: 0.923096
+---- EPOCH 237 EVALUATION ----
+Test epoch 237, loss: 0.704346, test acc: 0.894246, test avg acc: 0.851669
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:26:54.853038
+**** EPOCH 238 ****
+Train epoch 238, loss: 0.610747, train acc: 0.943607, train avg acc: 0.913405
+---- EPOCH 238 EVALUATION ----
+Test epoch 238, loss: 0.708781, test acc: 0.897488, test avg acc: 0.856541
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:27:43.087711
+**** EPOCH 239 ****
+Train epoch 239, loss: 0.603324, train acc: 0.946559, train avg acc: 0.920709
+---- EPOCH 239 EVALUATION ----
+Test epoch 239, loss: 0.667567, test acc: 0.916126, test avg acc: 0.871872
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:28:31.533991
+**** EPOCH 240 ****
+Train epoch 240, loss: 0.600807, train acc: 0.948290, train avg acc: 0.921000
+---- EPOCH 240 EVALUATION ----
+Test epoch 240, loss: 0.702402, test acc: 0.895462, test avg acc: 0.866465
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:29:20.132016
+**** EPOCH 241 ****
+Train epoch 241, loss: 0.614288, train acc: 0.945338, train avg acc: 0.918302
+---- EPOCH 241 EVALUATION ----
+Test epoch 241, loss: 0.716454, test acc: 0.902755, test avg acc: 0.862093
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:30:08.690966
+**** EPOCH 242 ****
+Train epoch 242, loss: 0.603410, train acc: 0.946865, train avg acc: 0.921190
+---- EPOCH 242 EVALUATION ----
+Test epoch 242, loss: 0.676890, test acc: 0.910859, test avg acc: 0.872465
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:30:57.358683
+**** EPOCH 243 ****
+Train epoch 243, loss: 0.607993, train acc: 0.944931, train avg acc: 0.918491
+---- EPOCH 243 EVALUATION ----
+Test epoch 243, loss: 0.749609, test acc: 0.896677, test avg acc: 0.868331
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:31:45.485110
+**** EPOCH 244 ****
+Train epoch 244, loss: 0.605276, train acc: 0.946865, train avg acc: 0.920772
+---- EPOCH 244 EVALUATION ----
+Test epoch 244, loss: 0.692684, test acc: 0.902350, test avg acc: 0.855756
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:32:33.978829
+**** EPOCH 245 ****
+Train epoch 245, loss: 0.600759, train acc: 0.949410, train avg acc: 0.925424
+---- EPOCH 245 EVALUATION ----
+Test epoch 245, loss: 0.707958, test acc: 0.901540, test avg acc: 0.864866
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:33:22.491237
+**** EPOCH 246 ****
+Train epoch 246, loss: 0.602308, train acc: 0.948392, train avg acc: 0.923213
+---- EPOCH 246 EVALUATION ----
+Test epoch 246, loss: 0.704275, test acc: 0.897083, test avg acc: 0.854355
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:34:11.240023
+**** EPOCH 247 ****
+Train epoch 247, loss: 0.594840, train acc: 0.951038, train avg acc: 0.924983
+---- EPOCH 247 EVALUATION ----
+Test epoch 247, loss: 0.698042, test acc: 0.899919, test avg acc: 0.875331
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:34:59.326057
+**** EPOCH 248 ****
+Train epoch 248, loss: 0.602660, train acc: 0.947476, train avg acc: 0.922943
+---- EPOCH 248 EVALUATION ----
+Test epoch 248, loss: 0.712676, test acc: 0.894652, test avg acc: 0.858244
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:35:48.005951
+**** EPOCH 249 ****
+Train epoch 249, loss: 0.594246, train acc: 0.951954, train avg acc: 0.927400
+---- EPOCH 249 EVALUATION ----
+Test epoch 249, loss: 0.703216, test acc: 0.907212, test avg acc: 0.871343
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:36:36.450886
+**** EPOCH 250 ****
+Train epoch 250, loss: 0.595120, train acc: 0.949715, train avg acc: 0.924856
+---- EPOCH 250 EVALUATION ----
+Test epoch 250, loss: 0.678251, test acc: 0.907212, test avg acc: 0.874547
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:37:24.966475
+**** EPOCH 251 ****
+Train epoch 251, loss: 0.600725, train acc: 0.947170, train avg acc: 0.920724
+---- EPOCH 251 EVALUATION ----
+Test epoch 251, loss: 0.719963, test acc: 0.897893, test avg acc: 0.851977
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:38:13.838737
+**** EPOCH 252 ****
+Train epoch 252, loss: 0.591692, train acc: 0.950529, train avg acc: 0.924873
+---- EPOCH 252 EVALUATION ----
+Test epoch 252, loss: 0.718056, test acc: 0.892626, test avg acc: 0.860140
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:39:02.169428
+**** EPOCH 253 ****
+Train epoch 253, loss: 0.594912, train acc: 0.951242, train avg acc: 0.928022
+---- EPOCH 253 EVALUATION ----
+Test epoch 253, loss: 0.678001, test acc: 0.912075, test avg acc: 0.869843
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:39:50.949420
+**** EPOCH 254 ****
+Train epoch 254, loss: 0.598757, train acc: 0.947170, train avg acc: 0.923110
+---- EPOCH 254 EVALUATION ----
+Test epoch 254, loss: 0.697553, test acc: 0.904376, test avg acc: 0.865622
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:40:39.737907
+**** EPOCH 255 ****
+Train epoch 255, loss: 0.596793, train acc: 0.949308, train avg acc: 0.923323
+---- EPOCH 255 EVALUATION ----
+Test epoch 255, loss: 0.725306, test acc: 0.888979, test avg acc: 0.847366
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:41:28.886714
+**** EPOCH 256 ****
+Train epoch 256, loss: 0.606967, train acc: 0.945134, train avg acc: 0.918989
+---- EPOCH 256 EVALUATION ----
+Test epoch 256, loss: 0.715093, test acc: 0.902755, test avg acc: 0.872186
+*** best accuracy *** - 0.917342
+*** at then, best class accuracy *** -  0.870610
+2021-11-13 17:42:17.713538
+**** EPOCH 257 ****
+Train epoch 257, loss: 0.599350, train acc: 0.950224, train avg acc: 0.926318
+---- EPOCH 257 EVALUATION ----
+Test epoch 257, loss: 0.667134, test acc: 0.917747, test avg acc: 0.873163
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:43:07.208544
+**** EPOCH 258 ****
+Train epoch 258, loss: 0.592309, train acc: 0.951140, train avg acc: 0.924236
+---- EPOCH 258 EVALUATION ----
+Test epoch 258, loss: 0.709927, test acc: 0.902350, test avg acc: 0.866686
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:43:55.589999
+**** EPOCH 259 ****
+Train epoch 259, loss: 0.591075, train acc: 0.953379, train avg acc: 0.928397
+---- EPOCH 259 EVALUATION ----
+Test epoch 259, loss: 0.701313, test acc: 0.900324, test avg acc: 0.857366
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:44:44.155584
+**** EPOCH 260 ****
+Train epoch 260, loss: 0.590217, train acc: 0.951547, train avg acc: 0.929803
+---- EPOCH 260 EVALUATION ----
+Test epoch 260, loss: 0.714656, test acc: 0.897083, test avg acc: 0.868448
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:45:32.956262
+**** EPOCH 261 ****
+Train epoch 261, loss: 0.583799, train acc: 0.952565, train avg acc: 0.931047
+---- EPOCH 261 EVALUATION ----
+Test epoch 261, loss: 0.728838, test acc: 0.893436, test avg acc: 0.875593
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:46:21.420216
+**** EPOCH 262 ****
+Train epoch 262, loss: 0.587125, train acc: 0.953685, train avg acc: 0.930843
+---- EPOCH 262 EVALUATION ----
+Test epoch 262, loss: 0.713673, test acc: 0.892220, test avg acc: 0.865250
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:47:09.756233
+**** EPOCH 263 ****
+Train epoch 263, loss: 0.587487, train acc: 0.953685, train avg acc: 0.930538
+---- EPOCH 263 EVALUATION ----
+Test epoch 263, loss: 0.696081, test acc: 0.899109, test avg acc: 0.857866
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:47:58.350333
+**** EPOCH 264 ****
+Train epoch 264, loss: 0.585833, train acc: 0.952667, train avg acc: 0.930697
+---- EPOCH 264 EVALUATION ----
+Test epoch 264, loss: 0.687741, test acc: 0.905997, test avg acc: 0.867541
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:48:46.870028
+**** EPOCH 265 ****
+Train epoch 265, loss: 0.585917, train acc: 0.951445, train avg acc: 0.925481
+---- EPOCH 265 EVALUATION ----
+Test epoch 265, loss: 0.669412, test acc: 0.908833, test avg acc: 0.873919
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:49:35.689198
+**** EPOCH 266 ****
+Train epoch 266, loss: 0.597480, train acc: 0.949613, train avg acc: 0.925052
+---- EPOCH 266 EVALUATION ----
+Test epoch 266, loss: 0.724102, test acc: 0.891410, test avg acc: 0.860814
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:50:24.165913
+**** EPOCH 267 ****
+Train epoch 267, loss: 0.597108, train acc: 0.948493, train avg acc: 0.926058
+---- EPOCH 267 EVALUATION ----
+Test epoch 267, loss: 0.666861, test acc: 0.916532, test avg acc: 0.876663
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:51:12.456140
+**** EPOCH 268 ****
+Train epoch 268, loss: 0.581962, train acc: 0.955619, train avg acc: 0.935361
+---- EPOCH 268 EVALUATION ----
+Test epoch 268, loss: 0.721936, test acc: 0.887358, test avg acc: 0.859797
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:52:00.950050
+**** EPOCH 269 ****
+Train epoch 269, loss: 0.588783, train acc: 0.951853, train avg acc: 0.927969
+---- EPOCH 269 EVALUATION ----
+Test epoch 269, loss: 0.713925, test acc: 0.894246, test avg acc: 0.872174
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:52:49.361293
+**** EPOCH 270 ****
+Train epoch 270, loss: 0.577178, train acc: 0.955110, train avg acc: 0.933653
+---- EPOCH 270 EVALUATION ----
+Test epoch 270, loss: 0.701627, test acc: 0.895057, test avg acc: 0.868471
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:53:38.171739
+**** EPOCH 271 ****
+Train epoch 271, loss: 0.580866, train acc: 0.954703, train avg acc: 0.932519
+---- EPOCH 271 EVALUATION ----
+Test epoch 271, loss: 0.722897, test acc: 0.890194, test avg acc: 0.864343
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:54:26.978418
+**** EPOCH 272 ****
+Train epoch 272, loss: 0.577504, train acc: 0.957248, train avg acc: 0.937549
+---- EPOCH 272 EVALUATION ----
+Test epoch 272, loss: 0.694251, test acc: 0.913290, test avg acc: 0.878884
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:55:15.670485
+**** EPOCH 273 ****
+Train epoch 273, loss: 0.571196, train acc: 0.955822, train avg acc: 0.934826
+---- EPOCH 273 EVALUATION ----
+Test epoch 273, loss: 0.685256, test acc: 0.905997, test avg acc: 0.870047
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:56:03.935335
+**** EPOCH 274 ****
+Train epoch 274, loss: 0.573486, train acc: 0.955517, train avg acc: 0.933346
+---- EPOCH 274 EVALUATION ----
+Test epoch 274, loss: 0.703263, test acc: 0.903160, test avg acc: 0.870221
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:56:52.556412
+**** EPOCH 275 ****
+Train epoch 275, loss: 0.575474, train acc: 0.957248, train avg acc: 0.938860
+---- EPOCH 275 EVALUATION ----
+Test epoch 275, loss: 0.713483, test acc: 0.889789, test avg acc: 0.852337
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:57:41.108157
+**** EPOCH 276 ****
+Train epoch 276, loss: 0.580121, train acc: 0.957757, train avg acc: 0.937501
+---- EPOCH 276 EVALUATION ----
+Test epoch 276, loss: 0.674195, test acc: 0.912885, test avg acc: 0.888826
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:58:29.130072
+**** EPOCH 277 ****
+Train epoch 277, loss: 0.572385, train acc: 0.959080, train avg acc: 0.938328
+---- EPOCH 277 EVALUATION ----
+Test epoch 277, loss: 0.674817, test acc: 0.913695, test avg acc: 0.875953
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 17:59:17.758085
+**** EPOCH 278 ****
+Train epoch 278, loss: 0.569245, train acc: 0.959385, train avg acc: 0.940962
+---- EPOCH 278 EVALUATION ----
+Test epoch 278, loss: 0.705645, test acc: 0.901135, test avg acc: 0.871878
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:00:06.034626
+**** EPOCH 279 ****
+Train epoch 279, loss: 0.570615, train acc: 0.959385, train avg acc: 0.940373
+---- EPOCH 279 EVALUATION ----
+Test epoch 279, loss: 0.673481, test acc: 0.910049, test avg acc: 0.869953
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:00:54.454373
+**** EPOCH 280 ****
+Train epoch 280, loss: 0.568460, train acc: 0.958469, train avg acc: 0.937403
+---- EPOCH 280 EVALUATION ----
+Test epoch 280, loss: 0.666769, test acc: 0.914911, test avg acc: 0.875959
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:01:42.499640
+**** EPOCH 281 ****
+Train epoch 281, loss: 0.566399, train acc: 0.958571, train avg acc: 0.936552
+---- EPOCH 281 EVALUATION ----
+Test epoch 281, loss: 0.676991, test acc: 0.906807, test avg acc: 0.868297
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:02:31.285283
+**** EPOCH 282 ****
+Train epoch 282, loss: 0.571695, train acc: 0.954194, train avg acc: 0.933814
+---- EPOCH 282 EVALUATION ----
+Test epoch 282, loss: 0.707486, test acc: 0.901945, test avg acc: 0.860419
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:03:19.723680
+**** EPOCH 283 ****
+Train epoch 283, loss: 0.575304, train acc: 0.955721, train avg acc: 0.933624
+---- EPOCH 283 EVALUATION ----
+Test epoch 283, loss: 0.709369, test acc: 0.897488, test avg acc: 0.860965
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:04:08.148223
+**** EPOCH 284 ****
+Train epoch 284, loss: 0.574057, train acc: 0.958164, train avg acc: 0.938440
+---- EPOCH 284 EVALUATION ----
+Test epoch 284, loss: 0.678629, test acc: 0.903566, test avg acc: 0.864378
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:04:56.795353
+**** EPOCH 285 ****
+Train epoch 285, loss: 0.568032, train acc: 0.958774, train avg acc: 0.939194
+---- EPOCH 285 EVALUATION ----
+Test epoch 285, loss: 0.692382, test acc: 0.903160, test avg acc: 0.868006
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:05:45.657882
+**** EPOCH 286 ****
+Train epoch 286, loss: 0.562534, train acc: 0.961421, train avg acc: 0.940121
+---- EPOCH 286 EVALUATION ----
+Test epoch 286, loss: 0.685410, test acc: 0.903566, test avg acc: 0.869948
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:06:33.687552
+**** EPOCH 287 ****
+Train epoch 287, loss: 0.568132, train acc: 0.958469, train avg acc: 0.938212
+---- EPOCH 287 EVALUATION ----
+Test epoch 287, loss: 0.684419, test acc: 0.906807, test avg acc: 0.878087
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:07:22.369843
+**** EPOCH 288 ****
+Train epoch 288, loss: 0.562902, train acc: 0.960607, train avg acc: 0.942672
+---- EPOCH 288 EVALUATION ----
+Test epoch 288, loss: 0.690757, test acc: 0.899919, test avg acc: 0.877837
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:08:10.752585
+**** EPOCH 289 ****
+Train epoch 289, loss: 0.553263, train acc: 0.965594, train avg acc: 0.949395
+---- EPOCH 289 EVALUATION ----
+Test epoch 289, loss: 0.657345, test acc: 0.912075, test avg acc: 0.877453
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:08:59.076411
+**** EPOCH 290 ****
+Train epoch 290, loss: 0.555681, train acc: 0.962846, train avg acc: 0.944537
+---- EPOCH 290 EVALUATION ----
+Test epoch 290, loss: 0.687109, test acc: 0.906807, test avg acc: 0.883541
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:09:47.657960
+**** EPOCH 291 ****
+Train epoch 291, loss: 0.555626, train acc: 0.963864, train avg acc: 0.945838
+---- EPOCH 291 EVALUATION ----
+Test epoch 291, loss: 0.681388, test acc: 0.911264, test avg acc: 0.879384
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:10:36.173703
+**** EPOCH 292 ****
+Train epoch 292, loss: 0.561588, train acc: 0.960912, train avg acc: 0.944089
+---- EPOCH 292 EVALUATION ----
+Test epoch 292, loss: 0.700990, test acc: 0.897083, test avg acc: 0.868547
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:11:24.442598
+**** EPOCH 293 ****
+Train epoch 293, loss: 0.562458, train acc: 0.958774, train avg acc: 0.937949
+---- EPOCH 293 EVALUATION ----
+Test epoch 293, loss: 0.677276, test acc: 0.908428, test avg acc: 0.880174
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:12:13.375857
+**** EPOCH 294 ****
+Train epoch 294, loss: 0.564079, train acc: 0.960200, train avg acc: 0.942370
+---- EPOCH 294 EVALUATION ----
+Test epoch 294, loss: 0.735702, test acc: 0.891815, test avg acc: 0.852802
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:13:01.558177
+**** EPOCH 295 ****
+Train epoch 295, loss: 0.560466, train acc: 0.960403, train avg acc: 0.939099
+---- EPOCH 295 EVALUATION ----
+Test epoch 295, loss: 0.722208, test acc: 0.902350, test avg acc: 0.875802
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:13:50.416734
+**** EPOCH 296 ****
+Train epoch 296, loss: 0.566695, train acc: 0.958876, train avg acc: 0.937567
+---- EPOCH 296 EVALUATION ----
+Test epoch 296, loss: 0.700427, test acc: 0.897488, test avg acc: 0.864302
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:14:39.227367
+**** EPOCH 297 ****
+Train epoch 297, loss: 0.556549, train acc: 0.962235, train avg acc: 0.945303
+---- EPOCH 297 EVALUATION ----
+Test epoch 297, loss: 0.669935, test acc: 0.911669, test avg acc: 0.882163
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:15:27.761818
+**** EPOCH 298 ****
+Train epoch 298, loss: 0.561553, train acc: 0.960200, train avg acc: 0.938155
+---- EPOCH 298 EVALUATION ----
+Test epoch 298, loss: 0.682498, test acc: 0.908023, test avg acc: 0.875843
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:16:17.158162
+**** EPOCH 299 ****
+Train epoch 299, loss: 0.551909, train acc: 0.963050, train avg acc: 0.943606
+---- EPOCH 299 EVALUATION ----
+Test epoch 299, loss: 0.698694, test acc: 0.902755, test avg acc: 0.874366
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:17:05.292353
+**** EPOCH 300 ****
+Train epoch 300, loss: 0.555176, train acc: 0.962744, train avg acc: 0.943643
+---- EPOCH 300 EVALUATION ----
+Test epoch 300, loss: 0.676301, test acc: 0.914100, test avg acc: 0.884372
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:17:53.750465
+**** EPOCH 301 ****
+Train epoch 301, loss: 0.555990, train acc: 0.962744, train avg acc: 0.943693
+---- EPOCH 301 EVALUATION ----
+Test epoch 301, loss: 0.680821, test acc: 0.913695, test avg acc: 0.889564
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:18:42.420765
+**** EPOCH 302 ****
+Train epoch 302, loss: 0.548850, train acc: 0.964271, train avg acc: 0.945594
+---- EPOCH 302 EVALUATION ----
+Test epoch 302, loss: 0.697367, test acc: 0.898703, test avg acc: 0.864052
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:19:31.071858
+**** EPOCH 303 ****
+Train epoch 303, loss: 0.559444, train acc: 0.961421, train avg acc: 0.942021
+---- EPOCH 303 EVALUATION ----
+Test epoch 303, loss: 0.654173, test acc: 0.916126, test avg acc: 0.873047
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:20:19.557502
+**** EPOCH 304 ****
+Train epoch 304, loss: 0.553079, train acc: 0.962948, train avg acc: 0.945089
+---- EPOCH 304 EVALUATION ----
+Test epoch 304, loss: 0.676270, test acc: 0.912480, test avg acc: 0.876919
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:21:07.955275
+**** EPOCH 305 ****
+Train epoch 305, loss: 0.557302, train acc: 0.962032, train avg acc: 0.945655
+---- EPOCH 305 EVALUATION ----
+Test epoch 305, loss: 0.680215, test acc: 0.905592, test avg acc: 0.869762
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:21:56.453711
+**** EPOCH 306 ****
+Train epoch 306, loss: 0.541735, train acc: 0.968241, train avg acc: 0.952881
+---- EPOCH 306 EVALUATION ----
+Test epoch 306, loss: 0.693411, test acc: 0.905592, test avg acc: 0.871988
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:22:44.813236
+**** EPOCH 307 ****
+Train epoch 307, loss: 0.548431, train acc: 0.965493, train avg acc: 0.949067
+---- EPOCH 307 EVALUATION ----
+Test epoch 307, loss: 0.670299, test acc: 0.913695, test avg acc: 0.872163
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:23:33.577545
+**** EPOCH 308 ****
+Train epoch 308, loss: 0.549710, train acc: 0.966714, train avg acc: 0.952406
+---- EPOCH 308 EVALUATION ----
+Test epoch 308, loss: 0.662395, test acc: 0.914506, test avg acc: 0.878413
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:24:21.850362
+**** EPOCH 309 ****
+Train epoch 309, loss: 0.546994, train acc: 0.966714, train avg acc: 0.949218
+---- EPOCH 309 EVALUATION ----
+Test epoch 309, loss: 0.684542, test acc: 0.901945, test avg acc: 0.868919
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:25:10.862605
+**** EPOCH 310 ****
+Train epoch 310, loss: 0.542570, train acc: 0.966612, train avg acc: 0.951283
+---- EPOCH 310 EVALUATION ----
+Test epoch 310, loss: 0.668060, test acc: 0.907618, test avg acc: 0.877797
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:25:59.106384
+**** EPOCH 311 ****
+Train epoch 311, loss: 0.543032, train acc: 0.968343, train avg acc: 0.953794
+---- EPOCH 311 EVALUATION ----
+Test epoch 311, loss: 0.688365, test acc: 0.903971, test avg acc: 0.870791
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:26:47.493910
+**** EPOCH 312 ****
+Train epoch 312, loss: 0.540676, train acc: 0.969564, train avg acc: 0.954759
+---- EPOCH 312 EVALUATION ----
+Test epoch 312, loss: 0.665483, test acc: 0.915316, test avg acc: 0.876663
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:27:35.952187
+**** EPOCH 313 ****
+Train epoch 313, loss: 0.548530, train acc: 0.964373, train avg acc: 0.946953
+---- EPOCH 313 EVALUATION ----
+Test epoch 313, loss: 0.656609, test acc: 0.915316, test avg acc: 0.884791
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:28:24.196812
+**** EPOCH 314 ****
+Train epoch 314, loss: 0.553194, train acc: 0.962643, train avg acc: 0.942579
+---- EPOCH 314 EVALUATION ----
+Test epoch 314, loss: 0.666274, test acc: 0.912480, test avg acc: 0.880878
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:29:12.713713
+**** EPOCH 315 ****
+Train epoch 315, loss: 0.540326, train acc: 0.968037, train avg acc: 0.951011
+---- EPOCH 315 EVALUATION ----
+Test epoch 315, loss: 0.659651, test acc: 0.915721, test avg acc: 0.886081
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:30:01.072248
+**** EPOCH 316 ****
+Train epoch 316, loss: 0.550655, train acc: 0.963864, train avg acc: 0.944530
+---- EPOCH 316 EVALUATION ----
+Test epoch 316, loss: 0.669728, test acc: 0.910859, test avg acc: 0.883831
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:30:49.986951
+**** EPOCH 317 ****
+Train epoch 317, loss: 0.540726, train acc: 0.966409, train avg acc: 0.950462
+---- EPOCH 317 EVALUATION ----
+Test epoch 317, loss: 0.675523, test acc: 0.903971, test avg acc: 0.879122
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:31:38.135414
+**** EPOCH 318 ****
+Train epoch 318, loss: 0.544690, train acc: 0.965187, train avg acc: 0.947413
+---- EPOCH 318 EVALUATION ----
+Test epoch 318, loss: 0.680101, test acc: 0.905186, test avg acc: 0.867250
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:32:26.513045
+**** EPOCH 319 ****
+Train epoch 319, loss: 0.535180, train acc: 0.970277, train avg acc: 0.954797
+---- EPOCH 319 EVALUATION ----
+Test epoch 319, loss: 0.681483, test acc: 0.906807, test avg acc: 0.876331
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:33:14.516439
+**** EPOCH 320 ****
+Train epoch 320, loss: 0.539421, train acc: 0.968139, train avg acc: 0.950213
+---- EPOCH 320 EVALUATION ----
+Test epoch 320, loss: 0.676364, test acc: 0.907618, test avg acc: 0.875343
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:34:03.389686
+**** EPOCH 321 ****
+Train epoch 321, loss: 0.533440, train acc: 0.969768, train avg acc: 0.953013
+---- EPOCH 321 EVALUATION ----
+Test epoch 321, loss: 0.676001, test acc: 0.905186, test avg acc: 0.868831
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:34:51.560780
+**** EPOCH 322 ****
+Train epoch 322, loss: 0.533847, train acc: 0.970786, train avg acc: 0.955654
+---- EPOCH 322 EVALUATION ----
+Test epoch 322, loss: 0.658427, test acc: 0.916937, test avg acc: 0.885215
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:35:40.051021
+**** EPOCH 323 ****
+Train epoch 323, loss: 0.539371, train acc: 0.967732, train avg acc: 0.950758
+---- EPOCH 323 EVALUATION ----
+Test epoch 323, loss: 0.679610, test acc: 0.909238, test avg acc: 0.887163
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:36:28.570674
+**** EPOCH 324 ****
+Train epoch 324, loss: 0.528933, train acc: 0.971600, train avg acc: 0.956361
+---- EPOCH 324 EVALUATION ----
+Test epoch 324, loss: 0.669719, test acc: 0.914506, test avg acc: 0.871372
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:37:16.950119
+**** EPOCH 325 ****
+Train epoch 325, loss: 0.529872, train acc: 0.970379, train avg acc: 0.953503
+---- EPOCH 325 EVALUATION ----
+Test epoch 325, loss: 0.657382, test acc: 0.914506, test avg acc: 0.877831
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:38:05.076604
+**** EPOCH 326 ****
+Train epoch 326, loss: 0.544501, train acc: 0.967121, train avg acc: 0.951720
+---- EPOCH 326 EVALUATION ----
+Test epoch 326, loss: 0.689902, test acc: 0.907212, test avg acc: 0.855459
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:38:53.907062
+**** EPOCH 327 ****
+Train epoch 327, loss: 0.529602, train acc: 0.972414, train avg acc: 0.957417
+---- EPOCH 327 EVALUATION ----
+Test epoch 327, loss: 0.681501, test acc: 0.910049, test avg acc: 0.877174
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:39:42.300379
+**** EPOCH 328 ****
+Train epoch 328, loss: 0.530068, train acc: 0.969463, train avg acc: 0.953562
+---- EPOCH 328 EVALUATION ----
+Test epoch 328, loss: 0.686367, test acc: 0.908833, test avg acc: 0.875424
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:40:30.824056
+**** EPOCH 329 ****
+Train epoch 329, loss: 0.523571, train acc: 0.973127, train avg acc: 0.959954
+---- EPOCH 329 EVALUATION ----
+Test epoch 329, loss: 0.680970, test acc: 0.907618, test avg acc: 0.870919
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:41:19.303217
+**** EPOCH 330 ****
+Train epoch 330, loss: 0.527475, train acc: 0.973025, train avg acc: 0.960082
+---- EPOCH 330 EVALUATION ----
+Test epoch 330, loss: 0.663065, test acc: 0.912480, test avg acc: 0.869035
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:42:07.989971
+**** EPOCH 331 ****
+Train epoch 331, loss: 0.529873, train acc: 0.970480, train avg acc: 0.955464
+---- EPOCH 331 EVALUATION ----
+Test epoch 331, loss: 0.658290, test acc: 0.914506, test avg acc: 0.873698
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:42:56.833001
+**** EPOCH 332 ****
+Train epoch 332, loss: 0.534442, train acc: 0.968954, train avg acc: 0.953870
+---- EPOCH 332 EVALUATION ----
+Test epoch 332, loss: 0.693681, test acc: 0.896272, test avg acc: 0.866669
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:43:45.737753
+**** EPOCH 333 ****
+Train epoch 333, loss: 0.533284, train acc: 0.970175, train avg acc: 0.956449
+---- EPOCH 333 EVALUATION ----
+Test epoch 333, loss: 0.671910, test acc: 0.909643, test avg acc: 0.866715
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:44:33.953129
+**** EPOCH 334 ****
+Train epoch 334, loss: 0.529591, train acc: 0.969361, train avg acc: 0.956396
+---- EPOCH 334 EVALUATION ----
+Test epoch 334, loss: 0.668297, test acc: 0.916126, test avg acc: 0.883541
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:45:22.552988
+**** EPOCH 335 ****
+Train epoch 335, loss: 0.532045, train acc: 0.970277, train avg acc: 0.955373
+---- EPOCH 335 EVALUATION ----
+Test epoch 335, loss: 0.677599, test acc: 0.907212, test avg acc: 0.885663
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:46:11.059276
+**** EPOCH 336 ****
+Train epoch 336, loss: 0.518932, train acc: 0.975163, train avg acc: 0.961970
+---- EPOCH 336 EVALUATION ----
+Test epoch 336, loss: 0.689942, test acc: 0.907212, test avg acc: 0.874808
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:46:59.336805
+**** EPOCH 337 ****
+Train epoch 337, loss: 0.520553, train acc: 0.971702, train avg acc: 0.956588
+---- EPOCH 337 EVALUATION ----
+Test epoch 337, loss: 0.663793, test acc: 0.916126, test avg acc: 0.886953
+*** best accuracy *** - 0.917747
+*** at then, best class accuracy *** -  0.873163
+2021-11-13 18:47:47.549414
+**** EPOCH 338 ****
+Train epoch 338, loss: 0.525663, train acc: 0.971702, train avg acc: 0.958182
+---- EPOCH 338 EVALUATION ----
+Test epoch 338, loss: 0.650125, test acc: 0.921394, test avg acc: 0.884959
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:48:37.518116
+**** EPOCH 339 ****
+Train epoch 339, loss: 0.524203, train acc: 0.971397, train avg acc: 0.957997
+---- EPOCH 339 EVALUATION ----
+Test epoch 339, loss: 0.676721, test acc: 0.908023, test avg acc: 0.885762
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:49:25.663846
+**** EPOCH 340 ****
+Train epoch 340, loss: 0.522392, train acc: 0.973127, train avg acc: 0.958108
+---- EPOCH 340 EVALUATION ----
+Test epoch 340, loss: 0.661948, test acc: 0.918152, test avg acc: 0.877500
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:50:14.101632
+**** EPOCH 341 ****
+Train epoch 341, loss: 0.519091, train acc: 0.973025, train avg acc: 0.960640
+---- EPOCH 341 EVALUATION ----
+Test epoch 341, loss: 0.672478, test acc: 0.909238, test avg acc: 0.873628
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:51:02.710536
+**** EPOCH 342 ****
+Train epoch 342, loss: 0.518919, train acc: 0.974552, train avg acc: 0.961209
+---- EPOCH 342 EVALUATION ----
+Test epoch 342, loss: 0.655804, test acc: 0.914506, test avg acc: 0.879709
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:51:51.259727
+**** EPOCH 343 ****
+Train epoch 343, loss: 0.510707, train acc: 0.977708, train avg acc: 0.967707
+---- EPOCH 343 EVALUATION ----
+Test epoch 343, loss: 0.661577, test acc: 0.913290, test avg acc: 0.877174
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:52:39.650380
+**** EPOCH 344 ****
+Train epoch 344, loss: 0.518725, train acc: 0.975672, train avg acc: 0.963152
+---- EPOCH 344 EVALUATION ----
+Test epoch 344, loss: 0.669483, test acc: 0.916937, test avg acc: 0.880547
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:53:28.385582
+**** EPOCH 345 ****
+Train epoch 345, loss: 0.508779, train acc: 0.976588, train avg acc: 0.964831
+---- EPOCH 345 EVALUATION ----
+Test epoch 345, loss: 0.686937, test acc: 0.908023, test avg acc: 0.883372
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:54:16.490251
+**** EPOCH 346 ****
+Train epoch 346, loss: 0.512356, train acc: 0.975366, train avg acc: 0.962542
+---- EPOCH 346 EVALUATION ----
+Test epoch 346, loss: 0.654168, test acc: 0.918558, test avg acc: 0.882419
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:55:04.665797
+**** EPOCH 347 ****
+Train epoch 347, loss: 0.509736, train acc: 0.978217, train avg acc: 0.967840
+---- EPOCH 347 EVALUATION ----
+Test epoch 347, loss: 0.668125, test acc: 0.914506, test avg acc: 0.882756
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:55:53.050621
+**** EPOCH 348 ****
+Train epoch 348, loss: 0.509473, train acc: 0.977300, train avg acc: 0.967088
+---- EPOCH 348 EVALUATION ----
+Test epoch 348, loss: 0.669608, test acc: 0.910454, test avg acc: 0.889459
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:56:41.455948
+**** EPOCH 349 ****
+Train epoch 349, loss: 0.511981, train acc: 0.975977, train avg acc: 0.965604
+---- EPOCH 349 EVALUATION ----
+Test epoch 349, loss: 0.702622, test acc: 0.899514, test avg acc: 0.879320
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:57:30.382792
+**** EPOCH 350 ****
+Train epoch 350, loss: 0.509385, train acc: 0.977402, train avg acc: 0.965109
+---- EPOCH 350 EVALUATION ----
+Test epoch 350, loss: 0.664355, test acc: 0.913290, test avg acc: 0.887663
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:58:18.855629
+**** EPOCH 351 ****
+Train epoch 351, loss: 0.511767, train acc: 0.977606, train avg acc: 0.966548
+---- EPOCH 351 EVALUATION ----
+Test epoch 351, loss: 0.658679, test acc: 0.914100, test avg acc: 0.889994
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:59:07.422915
+**** EPOCH 352 ****
+Train epoch 352, loss: 0.509680, train acc: 0.975570, train avg acc: 0.964080
+---- EPOCH 352 EVALUATION ----
+Test epoch 352, loss: 0.661269, test acc: 0.912480, test avg acc: 0.880878
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 18:59:56.133716
+**** EPOCH 353 ****
+Train epoch 353, loss: 0.513871, train acc: 0.975366, train avg acc: 0.961921
+---- EPOCH 353 EVALUATION ----
+Test epoch 353, loss: 0.677619, test acc: 0.907212, test avg acc: 0.891913
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 19:00:44.712409
+**** EPOCH 354 ****
+Train epoch 354, loss: 0.509771, train acc: 0.978318, train avg acc: 0.968721
+---- EPOCH 354 EVALUATION ----
+Test epoch 354, loss: 0.653407, test acc: 0.917747, test avg acc: 0.883122
+*** best accuracy *** - 0.921394
+*** at then, best class accuracy *** -  0.884959
+2021-11-13 19:01:33.577660
+**** EPOCH 355 ****
+Train epoch 355, loss: 0.518486, train acc: 0.973127, train avg acc: 0.959518
+---- EPOCH 355 EVALUATION ----
+Test epoch 355, loss: 0.643712, test acc: 0.921799, test avg acc: 0.887831
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:02:23.240101
+**** EPOCH 356 ****
+Train epoch 356, loss: 0.513305, train acc: 0.975774, train avg acc: 0.963612
+---- EPOCH 356 EVALUATION ----
+Test epoch 356, loss: 0.654020, test acc: 0.910049, test avg acc: 0.878459
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:03:11.791645
+**** EPOCH 357 ****
+Train epoch 357, loss: 0.506814, train acc: 0.977606, train avg acc: 0.967524
+---- EPOCH 357 EVALUATION ----
+Test epoch 357, loss: 0.674273, test acc: 0.913695, test avg acc: 0.888622
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:04:00.244248
+**** EPOCH 358 ****
+Train epoch 358, loss: 0.506555, train acc: 0.978013, train avg acc: 0.967013
+---- EPOCH 358 EVALUATION ----
+Test epoch 358, loss: 0.670012, test acc: 0.914506, test avg acc: 0.883994
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:04:48.883180
+**** EPOCH 359 ****
+Train epoch 359, loss: 0.504628, train acc: 0.978420, train avg acc: 0.968212
+---- EPOCH 359 EVALUATION ----
+Test epoch 359, loss: 0.664157, test acc: 0.916126, test avg acc: 0.889331
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:05:37.505145
+**** EPOCH 360 ****
+Train epoch 360, loss: 0.507367, train acc: 0.976792, train avg acc: 0.965532
+---- EPOCH 360 EVALUATION ----
+Test epoch 360, loss: 0.664622, test acc: 0.911264, test avg acc: 0.867500
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:06:26.195164
+**** EPOCH 361 ****
+Train epoch 361, loss: 0.508457, train acc: 0.977809, train avg acc: 0.966890
+---- EPOCH 361 EVALUATION ----
+Test epoch 361, loss: 0.662310, test acc: 0.918558, test avg acc: 0.882913
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:07:14.751023
+**** EPOCH 362 ****
+Train epoch 362, loss: 0.502602, train acc: 0.980558, train avg acc: 0.971364
+---- EPOCH 362 EVALUATION ----
+Test epoch 362, loss: 0.646611, test acc: 0.919773, test avg acc: 0.884494
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:08:03.257722
+**** EPOCH 363 ****
+Train epoch 363, loss: 0.496259, train acc: 0.981474, train avg acc: 0.973370
+---- EPOCH 363 EVALUATION ----
+Test epoch 363, loss: 0.661225, test acc: 0.919368, test avg acc: 0.891913
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:08:51.486345
+**** EPOCH 364 ****
+Train epoch 364, loss: 0.507452, train acc: 0.976384, train avg acc: 0.965254
+---- EPOCH 364 EVALUATION ----
+Test epoch 364, loss: 0.688947, test acc: 0.906402, test avg acc: 0.884715
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:09:40.386241
+**** EPOCH 365 ****
+Train epoch 365, loss: 0.499573, train acc: 0.980354, train avg acc: 0.971940
+---- EPOCH 365 EVALUATION ----
+Test epoch 365, loss: 0.647114, test acc: 0.920178, test avg acc: 0.891500
+*** best accuracy *** - 0.921799
+*** at then, best class accuracy *** -  0.887831
+2021-11-13 19:10:29.150088
+**** EPOCH 366 ****
+Train epoch 366, loss: 0.496957, train acc: 0.981474, train avg acc: 0.972991
+---- EPOCH 366 EVALUATION ----
+Test epoch 366, loss: 0.640653, test acc: 0.923825, test avg acc: 0.888448
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.923825
+*** at then, best class accuracy *** -  0.888448
+2021-11-13 19:11:19.087156
+**** EPOCH 367 ****
+Train epoch 367, loss: 0.490155, train acc: 0.982288, train avg acc: 0.973265
+---- EPOCH 367 EVALUATION ----
+Test epoch 367, loss: 0.660224, test acc: 0.911669, test avg acc: 0.873163
+*** best accuracy *** - 0.923825
+*** at then, best class accuracy *** -  0.888448
+2021-11-13 19:12:07.120248
+**** EPOCH 368 ****
+Train epoch 368, loss: 0.505813, train acc: 0.978522, train avg acc: 0.965529
+---- EPOCH 368 EVALUATION ----
+Test epoch 368, loss: 0.648685, test acc: 0.924230, test avg acc: 0.896291
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:12:57.092535
+**** EPOCH 369 ****
+Train epoch 369, loss: 0.506545, train acc: 0.977708, train avg acc: 0.967198
+---- EPOCH 369 EVALUATION ----
+Test epoch 369, loss: 0.662989, test acc: 0.910454, test avg acc: 0.883831
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:13:45.842107
+**** EPOCH 370 ****
+Train epoch 370, loss: 0.492566, train acc: 0.981881, train avg acc: 0.973694
+---- EPOCH 370 EVALUATION ----
+Test epoch 370, loss: 0.660227, test acc: 0.919773, test avg acc: 0.889674
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:14:34.156796
+**** EPOCH 371 ****
+Train epoch 371, loss: 0.497145, train acc: 0.980660, train avg acc: 0.970817
+---- EPOCH 371 EVALUATION ----
+Test epoch 371, loss: 0.652996, test acc: 0.918558, test avg acc: 0.884669
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:15:22.777029
+**** EPOCH 372 ****
+Train epoch 372, loss: 0.494318, train acc: 0.981169, train avg acc: 0.971492
+---- EPOCH 372 EVALUATION ----
+Test epoch 372, loss: 0.670038, test acc: 0.915721, test avg acc: 0.877994
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:16:11.166699
+**** EPOCH 373 ****
+Train epoch 373, loss: 0.492832, train acc: 0.982186, train avg acc: 0.972699
+---- EPOCH 373 EVALUATION ----
+Test epoch 373, loss: 0.676435, test acc: 0.911669, test avg acc: 0.889419
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:16:59.490457
+**** EPOCH 374 ****
+Train epoch 374, loss: 0.493555, train acc: 0.982695, train avg acc: 0.974607
+---- EPOCH 374 EVALUATION ----
+Test epoch 374, loss: 0.659596, test acc: 0.915721, test avg acc: 0.885709
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:17:48.050829
+**** EPOCH 375 ****
+Train epoch 375, loss: 0.499741, train acc: 0.978726, train avg acc: 0.968559
+---- EPOCH 375 EVALUATION ----
+Test epoch 375, loss: 0.642349, test acc: 0.919773, test avg acc: 0.886372
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:18:37.198737
+**** EPOCH 376 ****
+Train epoch 376, loss: 0.490518, train acc: 0.981983, train avg acc: 0.974943
+---- EPOCH 376 EVALUATION ----
+Test epoch 376, loss: 0.689150, test acc: 0.913695, test avg acc: 0.894459
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:19:25.376049
+**** EPOCH 377 ****
+Train epoch 377, loss: 0.484086, train acc: 0.983510, train avg acc: 0.976845
+---- EPOCH 377 EVALUATION ----
+Test epoch 377, loss: 0.654330, test acc: 0.915721, test avg acc: 0.874872
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:20:13.663105
+**** EPOCH 378 ****
+Train epoch 378, loss: 0.493217, train acc: 0.980965, train avg acc: 0.971795
+---- EPOCH 378 EVALUATION ----
+Test epoch 378, loss: 0.659783, test acc: 0.916937, test avg acc: 0.885506
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:21:02.095199
+**** EPOCH 379 ****
+Train epoch 379, loss: 0.492279, train acc: 0.981983, train avg acc: 0.974079
+---- EPOCH 379 EVALUATION ----
+Test epoch 379, loss: 0.670210, test acc: 0.915316, test avg acc: 0.885198
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:21:50.749202
+**** EPOCH 380 ****
+Train epoch 380, loss: 0.499597, train acc: 0.979336, train avg acc: 0.969910
+---- EPOCH 380 EVALUATION ----
+Test epoch 380, loss: 0.644278, test acc: 0.918558, test avg acc: 0.888628
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:22:39.511871
+**** EPOCH 381 ****
+Train epoch 381, loss: 0.482686, train acc: 0.984731, train avg acc: 0.977449
+---- EPOCH 381 EVALUATION ----
+Test epoch 381, loss: 0.646392, test acc: 0.921799, test avg acc: 0.891913
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:23:27.892328
+**** EPOCH 382 ****
+Train epoch 382, loss: 0.490156, train acc: 0.982797, train avg acc: 0.974747
+---- EPOCH 382 EVALUATION ----
+Test epoch 382, loss: 0.666107, test acc: 0.917342, test avg acc: 0.881634
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.896291
+2021-11-13 19:24:16.345453
+**** EPOCH 383 ****
+Train epoch 383, loss: 0.490591, train acc: 0.981983, train avg acc: 0.973280
+---- EPOCH 383 EVALUATION ----
+Test epoch 383, loss: 0.645256, test acc: 0.924230, test avg acc: 0.898163
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:25:06.361645
+**** EPOCH 384 ****
+Train epoch 384, loss: 0.492521, train acc: 0.982186, train avg acc: 0.971368
+---- EPOCH 384 EVALUATION ----
+Test epoch 384, loss: 0.653982, test acc: 0.917747, test avg acc: 0.891331
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:25:54.469250
+**** EPOCH 385 ****
+Train epoch 385, loss: 0.483937, train acc: 0.983713, train avg acc: 0.976149
+---- EPOCH 385 EVALUATION ----
+Test epoch 385, loss: 0.648068, test acc: 0.920989, test avg acc: 0.884494
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:26:42.639984
+**** EPOCH 386 ****
+Train epoch 386, loss: 0.485156, train acc: 0.984731, train avg acc: 0.976800
+---- EPOCH 386 EVALUATION ----
+Test epoch 386, loss: 0.655701, test acc: 0.915721, test avg acc: 0.880285
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:27:31.249849
+**** EPOCH 387 ****
+Train epoch 387, loss: 0.479236, train acc: 0.985953, train avg acc: 0.979443
+---- EPOCH 387 EVALUATION ----
+Test epoch 387, loss: 0.660952, test acc: 0.913290, test avg acc: 0.886081
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:28:19.492617
+**** EPOCH 388 ****
+Train epoch 388, loss: 0.482856, train acc: 0.984426, train avg acc: 0.976061
+---- EPOCH 388 EVALUATION ----
+Test epoch 388, loss: 0.664501, test acc: 0.912480, test avg acc: 0.885831
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:29:08.163570
+**** EPOCH 389 ****
+Train epoch 389, loss: 0.474808, train acc: 0.987581, train avg acc: 0.982533
+---- EPOCH 389 EVALUATION ----
+Test epoch 389, loss: 0.654304, test acc: 0.916126, test avg acc: 0.882250
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:29:56.058599
+**** EPOCH 390 ****
+Train epoch 390, loss: 0.478499, train acc: 0.985851, train avg acc: 0.979496
+---- EPOCH 390 EVALUATION ----
+Test epoch 390, loss: 0.659994, test acc: 0.918963, test avg acc: 0.892797
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:30:44.445901
+**** EPOCH 391 ****
+Train epoch 391, loss: 0.484606, train acc: 0.984222, train avg acc: 0.977153
+---- EPOCH 391 EVALUATION ----
+Test epoch 391, loss: 0.668705, test acc: 0.911264, test avg acc: 0.884413
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:31:33.050588
+**** EPOCH 392 ****
+Train epoch 392, loss: 0.477860, train acc: 0.986360, train avg acc: 0.979745
+---- EPOCH 392 EVALUATION ----
+Test epoch 392, loss: 0.671790, test acc: 0.914100, test avg acc: 0.888000
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:32:21.652428
+**** EPOCH 393 ****
+Train epoch 393, loss: 0.484167, train acc: 0.983103, train avg acc: 0.975296
+---- EPOCH 393 EVALUATION ----
+Test epoch 393, loss: 0.664466, test acc: 0.917342, test avg acc: 0.888872
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:33:10.458746
+**** EPOCH 394 ****
+Train epoch 394, loss: 0.478676, train acc: 0.986258, train avg acc: 0.979991
+---- EPOCH 394 EVALUATION ----
+Test epoch 394, loss: 0.686085, test acc: 0.912075, test avg acc: 0.882076
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:33:58.886915
+**** EPOCH 395 ****
+Train epoch 395, loss: 0.480826, train acc: 0.984629, train avg acc: 0.977197
+---- EPOCH 395 EVALUATION ----
+Test epoch 395, loss: 0.652346, test acc: 0.918963, test avg acc: 0.885244
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:34:47.494228
+**** EPOCH 396 ****
+Train epoch 396, loss: 0.471222, train acc: 0.987581, train avg acc: 0.982688
+---- EPOCH 396 EVALUATION ----
+Test epoch 396, loss: 0.667602, test acc: 0.915721, test avg acc: 0.874791
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:35:35.229085
+**** EPOCH 397 ****
+Train epoch 397, loss: 0.482215, train acc: 0.984121, train avg acc: 0.975513
+---- EPOCH 397 EVALUATION ----
+Test epoch 397, loss: 0.668321, test acc: 0.918152, test avg acc: 0.883785
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:36:23.648262
+**** EPOCH 398 ****
+Train epoch 398, loss: 0.471337, train acc: 0.988294, train avg acc: 0.984021
+---- EPOCH 398 EVALUATION ----
+Test epoch 398, loss: 0.679081, test acc: 0.912075, test avg acc: 0.887076
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:37:12.188398
+**** EPOCH 399 ****
+Train epoch 399, loss: 0.479874, train acc: 0.986055, train avg acc: 0.979620
+---- EPOCH 399 EVALUATION ----
+Test epoch 399, loss: 0.655562, test acc: 0.918963, test avg acc: 0.888163
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:38:00.955708
+**** EPOCH 400 ****
+Train epoch 400, loss: 0.478135, train acc: 0.985546, train avg acc: 0.977610
+---- EPOCH 400 EVALUATION ----
+Test epoch 400, loss: 0.665170, test acc: 0.915721, test avg acc: 0.887634
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:38:49.308991
+**** EPOCH 401 ****
+Train epoch 401, loss: 0.475896, train acc: 0.985749, train avg acc: 0.978771
+---- EPOCH 401 EVALUATION ----
+Test epoch 401, loss: 0.671538, test acc: 0.911264, test avg acc: 0.887244
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:39:38.197517
+**** EPOCH 402 ****
+Train epoch 402, loss: 0.472300, train acc: 0.987683, train avg acc: 0.982252
+---- EPOCH 402 EVALUATION ----
+Test epoch 402, loss: 0.658855, test acc: 0.913290, test avg acc: 0.883372
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:40:26.375830
+**** EPOCH 403 ****
+Train epoch 403, loss: 0.471995, train acc: 0.988192, train avg acc: 0.983433
+---- EPOCH 403 EVALUATION ----
+Test epoch 403, loss: 0.657836, test acc: 0.918152, test avg acc: 0.879826
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:41:14.953266
+**** EPOCH 404 ****
+Train epoch 404, loss: 0.473396, train acc: 0.986055, train avg acc: 0.979029
+---- EPOCH 404 EVALUATION ----
+Test epoch 404, loss: 0.663106, test acc: 0.916126, test avg acc: 0.888326
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:42:03.663934
+**** EPOCH 405 ****
+Train epoch 405, loss: 0.469943, train acc: 0.988192, train avg acc: 0.982388
+---- EPOCH 405 EVALUATION ----
+Test epoch 405, loss: 0.656789, test acc: 0.918963, test avg acc: 0.891203
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:42:52.349867
+**** EPOCH 406 ****
+Train epoch 406, loss: 0.471793, train acc: 0.988599, train avg acc: 0.984253
+---- EPOCH 406 EVALUATION ----
+Test epoch 406, loss: 0.669376, test acc: 0.916937, test avg acc: 0.883826
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:43:40.550694
+**** EPOCH 407 ****
+Train epoch 407, loss: 0.470389, train acc: 0.989007, train avg acc: 0.984543
+---- EPOCH 407 EVALUATION ----
+Test epoch 407, loss: 0.650492, test acc: 0.914506, test avg acc: 0.878372
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:44:29.152135
+**** EPOCH 408 ****
+Train epoch 408, loss: 0.471744, train acc: 0.987276, train avg acc: 0.981713
+---- EPOCH 408 EVALUATION ----
+Test epoch 408, loss: 0.668742, test acc: 0.914506, test avg acc: 0.884494
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:45:17.601980
+**** EPOCH 409 ****
+Train epoch 409, loss: 0.468290, train acc: 0.989108, train avg acc: 0.983832
+---- EPOCH 409 EVALUATION ----
+Test epoch 409, loss: 0.679137, test acc: 0.908023, test avg acc: 0.874453
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:46:06.093008
+**** EPOCH 410 ****
+Train epoch 410, loss: 0.465101, train acc: 0.990737, train avg acc: 0.984959
+---- EPOCH 410 EVALUATION ----
+Test epoch 410, loss: 0.654686, test acc: 0.917747, test avg acc: 0.884250
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:46:54.185548
+**** EPOCH 411 ****
+Train epoch 411, loss: 0.475190, train acc: 0.985546, train avg acc: 0.978968
+---- EPOCH 411 EVALUATION ----
+Test epoch 411, loss: 0.676095, test acc: 0.914100, test avg acc: 0.881163
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:47:43.018267
+**** EPOCH 412 ****
+Train epoch 412, loss: 0.474036, train acc: 0.986360, train avg acc: 0.979682
+---- EPOCH 412 EVALUATION ----
+Test epoch 412, loss: 0.675860, test acc: 0.911669, test avg acc: 0.884971
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:48:31.287432
+**** EPOCH 413 ****
+Train epoch 413, loss: 0.470562, train acc: 0.987785, train avg acc: 0.983156
+---- EPOCH 413 EVALUATION ----
+Test epoch 413, loss: 0.660295, test acc: 0.915316, test avg acc: 0.880581
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:49:20.354819
+**** EPOCH 414 ****
+Train epoch 414, loss: 0.470234, train acc: 0.988192, train avg acc: 0.983429
+---- EPOCH 414 EVALUATION ----
+Test epoch 414, loss: 0.669179, test acc: 0.917747, test avg acc: 0.886372
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:50:08.722541
+**** EPOCH 415 ****
+Train epoch 415, loss: 0.468054, train acc: 0.989210, train avg acc: 0.983187
+---- EPOCH 415 EVALUATION ----
+Test epoch 415, loss: 0.662354, test acc: 0.917747, test avg acc: 0.884209
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-13 19:50:57.495753
+**** EPOCH 416 ****
+Train epoch 416, loss: 0.462636, train acc: 0.990432, train avg acc: 0.986296
+---- EPOCH 416 EVALUATION ----
+Test epoch 416, loss: 0.665120, test acc: 0.915721, test avg acc: 0.883203
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 00:54:34.655633
+**** EPOCH 417 ****
+Train epoch 417, loss: 0.461684, train acc: 0.989719, train avg acc: 0.985435
+---- EPOCH 417 EVALUATION ----
+Test epoch 417, loss: 0.654720, test acc: 0.919368, test avg acc: 0.889913
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 00:55:23.758890
+**** EPOCH 418 ****
+Train epoch 418, loss: 0.466154, train acc: 0.989719, train avg acc: 0.986049
+---- EPOCH 418 EVALUATION ----
+Test epoch 418, loss: 0.660233, test acc: 0.918963, test avg acc: 0.891785
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 00:56:12.353297
+**** EPOCH 419 ****
+Train epoch 419, loss: 0.458911, train acc: 0.991042, train avg acc: 0.986184
+---- EPOCH 419 EVALUATION ----
+Test epoch 419, loss: 0.670695, test acc: 0.916532, test avg acc: 0.891413
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 00:57:00.458447
+**** EPOCH 420 ****
+Train epoch 420, loss: 0.460085, train acc: 0.990941, train avg acc: 0.985902
+---- EPOCH 420 EVALUATION ----
+Test epoch 420, loss: 0.658633, test acc: 0.916532, test avg acc: 0.888169
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 00:57:48.451772
+**** EPOCH 421 ****
+Train epoch 421, loss: 0.462212, train acc: 0.990737, train avg acc: 0.986091
+---- EPOCH 421 EVALUATION ----
+Test epoch 421, loss: 0.656837, test acc: 0.915721, test avg acc: 0.882203
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 00:58:36.750122
+**** EPOCH 422 ****
+Train epoch 422, loss: 0.460417, train acc: 0.990228, train avg acc: 0.984068
+---- EPOCH 422 EVALUATION ----
+Test epoch 422, loss: 0.659338, test acc: 0.916532, test avg acc: 0.886541
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 00:59:25.301919
+**** EPOCH 423 ****
+Train epoch 423, loss: 0.467232, train acc: 0.986971, train avg acc: 0.981893
+---- EPOCH 423 EVALUATION ----
+Test epoch 423, loss: 0.658213, test acc: 0.917747, test avg acc: 0.890413
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 01:00:13.571593
+**** EPOCH 424 ****
+Train epoch 424, loss: 0.460280, train acc: 0.991857, train avg acc: 0.988215
+---- EPOCH 424 EVALUATION ----
+Test epoch 424, loss: 0.652263, test acc: 0.923015, test avg acc: 0.893866
+*** best accuracy *** - 0.924230
+*** at then, best class accuracy *** -  0.898163
+2021-11-14 01:01:01.785151
+**** EPOCH 425 ****
+Train epoch 425, loss: 0.470606, train acc: 0.986869, train avg acc: 0.980017
+---- EPOCH 425 EVALUATION ----
+Test epoch 425, loss: 0.648864, test acc: 0.925446, test avg acc: 0.895000
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:01:52.064277
+**** EPOCH 426 ****
+Train epoch 426, loss: 0.465884, train acc: 0.988701, train avg acc: 0.982739
+---- EPOCH 426 EVALUATION ----
+Test epoch 426, loss: 0.660998, test acc: 0.915721, test avg acc: 0.884163
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:02:40.185137
+**** EPOCH 427 ****
+Train epoch 427, loss: 0.462973, train acc: 0.990432, train avg acc: 0.986327
+---- EPOCH 427 EVALUATION ----
+Test epoch 427, loss: 0.663854, test acc: 0.917747, test avg acc: 0.891250
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:03:28.814323
+**** EPOCH 428 ****
+Train epoch 428, loss: 0.457953, train acc: 0.991551, train avg acc: 0.987806
+---- EPOCH 428 EVALUATION ----
+Test epoch 428, loss: 0.662257, test acc: 0.917747, test avg acc: 0.890494
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:04:17.551013
+**** EPOCH 429 ****
+Train epoch 429, loss: 0.461656, train acc: 0.989719, train avg acc: 0.984705
+---- EPOCH 429 EVALUATION ----
+Test epoch 429, loss: 0.661864, test acc: 0.916937, test avg acc: 0.890076
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:05:05.814653
+**** EPOCH 430 ****
+Train epoch 430, loss: 0.460994, train acc: 0.990024, train avg acc: 0.986754
+---- EPOCH 430 EVALUATION ----
+Test epoch 430, loss: 0.652610, test acc: 0.920583, test avg acc: 0.890203
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:05:54.269703
+**** EPOCH 431 ****
+Train epoch 431, loss: 0.464088, train acc: 0.988396, train avg acc: 0.984216
+---- EPOCH 431 EVALUATION ----
+Test epoch 431, loss: 0.656811, test acc: 0.916532, test avg acc: 0.885744
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:06:42.848273
+**** EPOCH 432 ****
+Train epoch 432, loss: 0.460915, train acc: 0.990228, train avg acc: 0.984767
+---- EPOCH 432 EVALUATION ----
+Test epoch 432, loss: 0.653109, test acc: 0.923015, test avg acc: 0.897622
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:07:31.090280
+**** EPOCH 433 ****
+Train epoch 433, loss: 0.461230, train acc: 0.989719, train avg acc: 0.985339
+---- EPOCH 433 EVALUATION ----
+Test epoch 433, loss: 0.652587, test acc: 0.921394, test avg acc: 0.893541
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:08:19.276925
+**** EPOCH 434 ****
+Train epoch 434, loss: 0.457557, train acc: 0.991450, train avg acc: 0.987635
+---- EPOCH 434 EVALUATION ----
+Test epoch 434, loss: 0.651439, test acc: 0.923825, test avg acc: 0.893122
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:09:07.985155
+**** EPOCH 435 ****
+Train epoch 435, loss: 0.452698, train acc: 0.991551, train avg acc: 0.987467
+---- EPOCH 435 EVALUATION ----
+Test epoch 435, loss: 0.657359, test acc: 0.921394, test avg acc: 0.893703
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:09:56.389741
+**** EPOCH 436 ****
+Train epoch 436, loss: 0.459179, train acc: 0.991857, train avg acc: 0.987064
+---- EPOCH 436 EVALUATION ----
+Test epoch 436, loss: 0.661187, test acc: 0.916937, test avg acc: 0.888791
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:10:44.999303
+**** EPOCH 437 ****
+Train epoch 437, loss: 0.461789, train acc: 0.989312, train avg acc: 0.983668
+---- EPOCH 437 EVALUATION ----
+Test epoch 437, loss: 0.652372, test acc: 0.923015, test avg acc: 0.892453
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:11:33.656515
+**** EPOCH 438 ****
+Train epoch 438, loss: 0.458374, train acc: 0.992060, train avg acc: 0.987603
+---- EPOCH 438 EVALUATION ----
+Test epoch 438, loss: 0.653807, test acc: 0.923420, test avg acc: 0.894076
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:12:22.334147
+**** EPOCH 439 ****
+Train epoch 439, loss: 0.455153, train acc: 0.992264, train avg acc: 0.989325
+---- EPOCH 439 EVALUATION ----
+Test epoch 439, loss: 0.660917, test acc: 0.918963, test avg acc: 0.889122
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:13:10.071275
+**** EPOCH 440 ****
+Train epoch 440, loss: 0.455338, train acc: 0.991653, train avg acc: 0.988417
+---- EPOCH 440 EVALUATION ----
+Test epoch 440, loss: 0.653600, test acc: 0.924635, test avg acc: 0.891419
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:13:58.499710
+**** EPOCH 441 ****
+Train epoch 441, loss: 0.455780, train acc: 0.992264, train avg acc: 0.988779
+---- EPOCH 441 EVALUATION ----
+Test epoch 441, loss: 0.648900, test acc: 0.921394, test avg acc: 0.893622
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:14:46.949539
+**** EPOCH 442 ****
+Train epoch 442, loss: 0.450809, train acc: 0.993587, train avg acc: 0.991059
+---- EPOCH 442 EVALUATION ----
+Test epoch 442, loss: 0.658303, test acc: 0.917747, test avg acc: 0.887453
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:15:35.045313
+**** EPOCH 443 ****
+Train epoch 443, loss: 0.454770, train acc: 0.992671, train avg acc: 0.989426
+---- EPOCH 443 EVALUATION ----
+Test epoch 443, loss: 0.651169, test acc: 0.924635, test avg acc: 0.894622
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:16:23.496365
+**** EPOCH 444 ****
+Train epoch 444, loss: 0.455940, train acc: 0.991857, train avg acc: 0.987697
+---- EPOCH 444 EVALUATION ----
+Test epoch 444, loss: 0.652511, test acc: 0.920583, test avg acc: 0.891163
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:17:12.373525
+**** EPOCH 445 ****
+Train epoch 445, loss: 0.452084, train acc: 0.992366, train avg acc: 0.987987
+---- EPOCH 445 EVALUATION ----
+Test epoch 445, loss: 0.653003, test acc: 0.920583, test avg acc: 0.889000
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:18:00.749959
+**** EPOCH 446 ****
+Train epoch 446, loss: 0.451708, train acc: 0.992264, train avg acc: 0.988106
+---- EPOCH 446 EVALUATION ----
+Test epoch 446, loss: 0.654576, test acc: 0.921799, test avg acc: 0.891872
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:18:49.138176
+**** EPOCH 447 ****
+Train epoch 447, loss: 0.451479, train acc: 0.992671, train avg acc: 0.989407
+---- EPOCH 447 EVALUATION ----
+Test epoch 447, loss: 0.643537, test acc: 0.923825, test avg acc: 0.888203
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:19:37.467616
+**** EPOCH 448 ****
+Train epoch 448, loss: 0.451555, train acc: 0.993078, train avg acc: 0.989401
+---- EPOCH 448 EVALUATION ----
+Test epoch 448, loss: 0.647809, test acc: 0.919368, test avg acc: 0.885413
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:20:25.518718
+**** EPOCH 449 ****
+Train epoch 449, loss: 0.452941, train acc: 0.992569, train avg acc: 0.988998
+---- EPOCH 449 EVALUATION ----
+Test epoch 449, loss: 0.646508, test acc: 0.922204, test avg acc: 0.890203
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:21:13.727157
+**** EPOCH 450 ****
+Train epoch 450, loss: 0.452028, train acc: 0.993587, train avg acc: 0.990428
+---- EPOCH 450 EVALUATION ----
+Test epoch 450, loss: 0.645037, test acc: 0.921799, test avg acc: 0.889831
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:22:02.577811
+**** EPOCH 451 ****
+Train epoch 451, loss: 0.449990, train acc: 0.992976, train avg acc: 0.989820
+---- EPOCH 451 EVALUATION ----
+Test epoch 451, loss: 0.652542, test acc: 0.918963, test avg acc: 0.886081
+*** best accuracy *** - 0.925446
+*** at then, best class accuracy *** -  0.895000
+2021-11-14 01:22:51.289466
+**** EPOCH 452 ****
+Train epoch 452, loss: 0.451298, train acc: 0.992671, train avg acc: 0.988764
+---- EPOCH 452 EVALUATION ----
+Test epoch 452, loss: 0.652045, test acc: 0.926661, test avg acc: 0.894238
+Model saved in file : checkpoints/augmix_cutmix_lams2_eps5e-2_dgcnn_1024/models/model.t7
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:23:41.741936
+**** EPOCH 453 ****
+Train epoch 453, loss: 0.447944, train acc: 0.994809, train avg acc: 0.992564
+---- EPOCH 453 EVALUATION ----
+Test epoch 453, loss: 0.647599, test acc: 0.923420, test avg acc: 0.892035
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:24:29.677094
+**** EPOCH 454 ****
+Train epoch 454, loss: 0.448798, train acc: 0.993791, train avg acc: 0.990948
+---- EPOCH 454 EVALUATION ----
+Test epoch 454, loss: 0.654320, test acc: 0.924635, test avg acc: 0.891785
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:25:18.149871
+**** EPOCH 455 ****
+Train epoch 455, loss: 0.448989, train acc: 0.993180, train avg acc: 0.989623
+---- EPOCH 455 EVALUATION ----
+Test epoch 455, loss: 0.645290, test acc: 0.925851, test avg acc: 0.894372
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:26:06.457726
+**** EPOCH 456 ****
+Train epoch 456, loss: 0.449511, train acc: 0.993689, train avg acc: 0.990146
+---- EPOCH 456 EVALUATION ----
+Test epoch 456, loss: 0.652401, test acc: 0.924230, test avg acc: 0.893285
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:26:54.859171
+**** EPOCH 457 ****
+Train epoch 457, loss: 0.449397, train acc: 0.992569, train avg acc: 0.988859
+---- EPOCH 457 EVALUATION ----
+Test epoch 457, loss: 0.647330, test acc: 0.921799, test avg acc: 0.893831
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:27:42.787863
+**** EPOCH 458 ****
+Train epoch 458, loss: 0.453437, train acc: 0.991551, train avg acc: 0.986963
+---- EPOCH 458 EVALUATION ----
+Test epoch 458, loss: 0.655022, test acc: 0.919773, test avg acc: 0.890622
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:28:31.360396
+**** EPOCH 459 ****
+Train epoch 459, loss: 0.450512, train acc: 0.992671, train avg acc: 0.989268
+---- EPOCH 459 EVALUATION ----
+Test epoch 459, loss: 0.654210, test acc: 0.921394, test avg acc: 0.887663
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:29:19.526063
+**** EPOCH 460 ****
+Train epoch 460, loss: 0.447121, train acc: 0.993689, train avg acc: 0.991013
+---- EPOCH 460 EVALUATION ----
+Test epoch 460, loss: 0.649602, test acc: 0.922609, test avg acc: 0.891453
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:30:07.609404
+**** EPOCH 461 ****
+Train epoch 461, loss: 0.453052, train acc: 0.991042, train avg acc: 0.986712
+---- EPOCH 461 EVALUATION ----
+Test epoch 461, loss: 0.650809, test acc: 0.922204, test avg acc: 0.894041
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:30:56.024997
+**** EPOCH 462 ****
+Train epoch 462, loss: 0.447455, train acc: 0.993282, train avg acc: 0.989663
+---- EPOCH 462 EVALUATION ----
+Test epoch 462, loss: 0.655781, test acc: 0.920583, test avg acc: 0.886122
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:31:44.354463
+**** EPOCH 463 ****
+Train epoch 463, loss: 0.451166, train acc: 0.992773, train avg acc: 0.989152
+---- EPOCH 463 EVALUATION ----
+Test epoch 463, loss: 0.664584, test acc: 0.915316, test avg acc: 0.886831
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:32:32.775408
+**** EPOCH 464 ****
+Train epoch 464, loss: 0.447857, train acc: 0.993587, train avg acc: 0.990649
+---- EPOCH 464 EVALUATION ----
+Test epoch 464, loss: 0.653256, test acc: 0.922204, test avg acc: 0.893000
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:33:20.869050
+**** EPOCH 465 ****
+Train epoch 465, loss: 0.448511, train acc: 0.993893, train avg acc: 0.991911
+---- EPOCH 465 EVALUATION ----
+Test epoch 465, loss: 0.657231, test acc: 0.919773, test avg acc: 0.885622
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:34:09.762594
+**** EPOCH 466 ****
+Train epoch 466, loss: 0.450681, train acc: 0.992467, train avg acc: 0.988544
+---- EPOCH 466 EVALUATION ----
+Test epoch 466, loss: 0.656550, test acc: 0.919773, test avg acc: 0.885663
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:34:58.055287
+**** EPOCH 467 ****
+Train epoch 467, loss: 0.445398, train acc: 0.994198, train avg acc: 0.990308
+---- EPOCH 467 EVALUATION ----
+Test epoch 467, loss: 0.655398, test acc: 0.923015, test avg acc: 0.890744
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:35:46.362614
+**** EPOCH 468 ****
+Train epoch 468, loss: 0.445896, train acc: 0.994910, train avg acc: 0.992686
+---- EPOCH 468 EVALUATION ----
+Test epoch 468, loss: 0.650722, test acc: 0.922609, test avg acc: 0.889576
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:36:34.786813
+**** EPOCH 469 ****
+Train epoch 469, loss: 0.447069, train acc: 0.993994, train avg acc: 0.990688
+---- EPOCH 469 EVALUATION ----
+Test epoch 469, loss: 0.651713, test acc: 0.920178, test avg acc: 0.889750
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:37:23.212025
+**** EPOCH 470 ****
+Train epoch 470, loss: 0.448261, train acc: 0.993485, train avg acc: 0.990192
+---- EPOCH 470 EVALUATION ----
+Test epoch 470, loss: 0.660248, test acc: 0.918963, test avg acc: 0.888244
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:38:11.349175
+**** EPOCH 471 ****
+Train epoch 471, loss: 0.453680, train acc: 0.991348, train avg acc: 0.987788
+---- EPOCH 471 EVALUATION ----
+Test epoch 471, loss: 0.657850, test acc: 0.922609, test avg acc: 0.895291
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:39:00.262875
+**** EPOCH 472 ****
+Train epoch 472, loss: 0.447654, train acc: 0.993485, train avg acc: 0.989901
+---- EPOCH 472 EVALUATION ----
+Test epoch 472, loss: 0.658763, test acc: 0.918963, test avg acc: 0.893041
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:39:48.645276
+**** EPOCH 473 ****
+Train epoch 473, loss: 0.443939, train acc: 0.994503, train avg acc: 0.991470
+---- EPOCH 473 EVALUATION ----
+Test epoch 473, loss: 0.658905, test acc: 0.918963, test avg acc: 0.886122
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:40:36.767661
+**** EPOCH 474 ****
+Train epoch 474, loss: 0.447172, train acc: 0.993587, train avg acc: 0.990558
+---- EPOCH 474 EVALUATION ----
+Test epoch 474, loss: 0.659717, test acc: 0.915721, test avg acc: 0.885203
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:41:25.178771
+**** EPOCH 475 ****
+Train epoch 475, loss: 0.446748, train acc: 0.993791, train avg acc: 0.990448
+---- EPOCH 475 EVALUATION ----
+Test epoch 475, loss: 0.661907, test acc: 0.917342, test avg acc: 0.889163
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:42:13.550015
+**** EPOCH 476 ****
+Train epoch 476, loss: 0.446781, train acc: 0.993994, train avg acc: 0.991233
+---- EPOCH 476 EVALUATION ----
+Test epoch 476, loss: 0.654815, test acc: 0.920989, test avg acc: 0.889413
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:43:01.855345
+**** EPOCH 477 ****
+Train epoch 477, loss: 0.449357, train acc: 0.993791, train avg acc: 0.990141
+---- EPOCH 477 EVALUATION ----
+Test epoch 477, loss: 0.654270, test acc: 0.921394, test avg acc: 0.889703
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:43:50.670391
+**** EPOCH 478 ****
+Train epoch 478, loss: 0.448404, train acc: 0.993282, train avg acc: 0.990157
+---- EPOCH 478 EVALUATION ----
+Test epoch 478, loss: 0.653391, test acc: 0.922609, test avg acc: 0.891535
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:44:39.152138
+**** EPOCH 479 ****
+Train epoch 479, loss: 0.447885, train acc: 0.994198, train avg acc: 0.991154
+---- EPOCH 479 EVALUATION ----
+Test epoch 479, loss: 0.654545, test acc: 0.917342, test avg acc: 0.885122
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:45:28.067276
+**** EPOCH 480 ****
+Train epoch 480, loss: 0.445707, train acc: 0.994503, train avg acc: 0.992082
+---- EPOCH 480 EVALUATION ----
+Test epoch 480, loss: 0.652200, test acc: 0.920583, test avg acc: 0.891081
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:46:16.173109
+**** EPOCH 481 ****
+Train epoch 481, loss: 0.447767, train acc: 0.994401, train avg acc: 0.991888
+---- EPOCH 481 EVALUATION ----
+Test epoch 481, loss: 0.650780, test acc: 0.921799, test avg acc: 0.890791
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:47:04.858406
+**** EPOCH 482 ****
+Train epoch 482, loss: 0.442970, train acc: 0.995012, train avg acc: 0.992331
+---- EPOCH 482 EVALUATION ----
+Test epoch 482, loss: 0.657290, test acc: 0.921799, test avg acc: 0.893913
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:47:53.250943
+**** EPOCH 483 ****
+Train epoch 483, loss: 0.445410, train acc: 0.994809, train avg acc: 0.992424
+---- EPOCH 483 EVALUATION ----
+Test epoch 483, loss: 0.655487, test acc: 0.919368, test avg acc: 0.887372
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:48:41.200669
+**** EPOCH 484 ****
+Train epoch 484, loss: 0.445351, train acc: 0.994401, train avg acc: 0.992137
+---- EPOCH 484 EVALUATION ----
+Test epoch 484, loss: 0.656275, test acc: 0.921799, test avg acc: 0.892913
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:49:29.343118
+**** EPOCH 485 ****
+Train epoch 485, loss: 0.449039, train acc: 0.993078, train avg acc: 0.989797
+---- EPOCH 485 EVALUATION ----
+Test epoch 485, loss: 0.655388, test acc: 0.916937, test avg acc: 0.883994
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:50:17.646248
+**** EPOCH 486 ****
+Train epoch 486, loss: 0.444583, train acc: 0.995012, train avg acc: 0.993259
+---- EPOCH 486 EVALUATION ----
+Test epoch 486, loss: 0.654047, test acc: 0.923015, test avg acc: 0.894663
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:51:05.746249
+**** EPOCH 487 ****
+Train epoch 487, loss: 0.445206, train acc: 0.994401, train avg acc: 0.991608
+---- EPOCH 487 EVALUATION ----
+Test epoch 487, loss: 0.658389, test acc: 0.920178, test avg acc: 0.888953
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:51:54.178138
+**** EPOCH 488 ****
+Train epoch 488, loss: 0.443152, train acc: 0.995521, train avg acc: 0.993552
+---- EPOCH 488 EVALUATION ----
+Test epoch 488, loss: 0.656685, test acc: 0.918963, test avg acc: 0.890081
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:52:42.595540
+**** EPOCH 489 ****
+Train epoch 489, loss: 0.446914, train acc: 0.993180, train avg acc: 0.990580
+---- EPOCH 489 EVALUATION ----
+Test epoch 489, loss: 0.658855, test acc: 0.920989, test avg acc: 0.892291
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:53:31.312442
+**** EPOCH 490 ****
+Train epoch 490, loss: 0.446791, train acc: 0.993180, train avg acc: 0.990262
+---- EPOCH 490 EVALUATION ----
+Test epoch 490, loss: 0.649621, test acc: 0.922204, test avg acc: 0.891041
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:54:20.066301
+**** EPOCH 491 ****
+Train epoch 491, loss: 0.449795, train acc: 0.992976, train avg acc: 0.988773
+---- EPOCH 491 EVALUATION ----
+Test epoch 491, loss: 0.655027, test acc: 0.919368, test avg acc: 0.891250
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:55:09.146036
+**** EPOCH 492 ****
+Train epoch 492, loss: 0.446984, train acc: 0.993791, train avg acc: 0.990364
+---- EPOCH 492 EVALUATION ----
+Test epoch 492, loss: 0.655162, test acc: 0.920989, test avg acc: 0.890413
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:55:58.041993
+**** EPOCH 493 ****
+Train epoch 493, loss: 0.444240, train acc: 0.995521, train avg acc: 0.992596
+---- EPOCH 493 EVALUATION ----
+Test epoch 493, loss: 0.655482, test acc: 0.918558, test avg acc: 0.883872
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:56:46.481050
+**** EPOCH 494 ****
+Train epoch 494, loss: 0.445688, train acc: 0.993689, train avg acc: 0.990533
+---- EPOCH 494 EVALUATION ----
+Test epoch 494, loss: 0.658701, test acc: 0.918963, test avg acc: 0.886244
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:57:34.771913
+**** EPOCH 495 ****
+Train epoch 495, loss: 0.443766, train acc: 0.994707, train avg acc: 0.992276
+---- EPOCH 495 EVALUATION ----
+Test epoch 495, loss: 0.659136, test acc: 0.917747, test avg acc: 0.886494
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:58:22.957117
+**** EPOCH 496 ****
+Train epoch 496, loss: 0.442903, train acc: 0.994910, train avg acc: 0.991619
+---- EPOCH 496 EVALUATION ----
+Test epoch 496, loss: 0.658524, test acc: 0.917747, test avg acc: 0.885291
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:59:11.031656
+**** EPOCH 497 ****
+Train epoch 497, loss: 0.444174, train acc: 0.994300, train avg acc: 0.992010
+---- EPOCH 497 EVALUATION ----
+Test epoch 497, loss: 0.655889, test acc: 0.917747, test avg acc: 0.885413
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 01:59:59.150276
+**** EPOCH 498 ****
+Train epoch 498, loss: 0.445167, train acc: 0.994300, train avg acc: 0.992336
+---- EPOCH 498 EVALUATION ----
+Test epoch 498, loss: 0.656388, test acc: 0.918558, test avg acc: 0.885831
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+2021-11-14 02:00:47.944315
+**** EPOCH 499 ****
+Train epoch 499, loss: 0.442612, train acc: 0.994401, train avg acc: 0.992117
+---- EPOCH 499 EVALUATION ----
+Test epoch 499, loss: 0.660239, test acc: 0.919368, test avg acc: 0.889453
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+... End of the Training ...
+trainig time : 45.85 sec, 47 min, 11 hour
+*** training accuracy when best accuracy *** - 0.994401
+*** best accuracy *** - 0.926661
+*** at then, best class accuracy *** -  0.894238
+*** conv epoch *** - 452
