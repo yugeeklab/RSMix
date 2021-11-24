@@ -156,7 +156,6 @@ def train(args, io):
                 data_r2 = augmix_provider.augmix(data, beta=args.beta, n_sample=args.nsample)
 
             if rsmix:
-                print("Use rsmix")
                 data = data.permute(0, 2, 1)
                 batch_size = data.size()[0]
                 opt.zero_grad()
@@ -195,8 +194,7 @@ def train(args, io):
                               F.kl_div(p_mixture, p_aug2, reduction='batchmean')) / 3.
 
             elif r < args.augmix_cutmix_prob :
-                print("Use augmix_cutmix")
-                data = augmix_provider.augmix_cutmix(data, jitter_clip = 0.1)
+                data = augmix_provider.augmix_cutmix_ver(data, lam_a = 0.3, lam_b = 0.3)
                 data = data.permute(0, 2, 1)
                 batch_size = data.size()[0]
                 opt.zero_grad()
